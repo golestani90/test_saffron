@@ -1,0 +1,389 @@
+{% extends "parent/base_parent.html" %}
+{% block content %}
+<div class="container min-hight font">
+
+	<div class="row">
+       <div class="col-md-12 col-sm-12">
+		 <div class="tabbable tabbable-custom">
+		   <ul class="nav nav-tabs">
+		     <li><a href="{% url 'myapp.views.best_news'%}" data-toggle="tab"> بهترین اخبار   </a></li>
+		     <li class="active"><a href="{% url 'myapp.views.new_news'%}" data-toggle="tab">جدید ترین اخبار</a></li>
+		   </ul>
+			<div class="col-md-12 col-sm-12 blog-posts margin-bottom-40">
+				<div class="row">
+				 <div class="col-md-4 col-sm-4">
+                     <div class="front-carousel">
+						<div id="myCarousel" class="carousel slide">
+							<div class="carousel-inner">
+								<div class="active item">
+											<img src="static/img/news/1.jpg" alt="">
+								</div>
+								<div class="item">
+											<img src="static/img/news/2.jpg" alt="">
+								</div>
+								<div class="item">
+											<img src="static/img/news/3.jpg" alt="">
+								</div>
+							</div>
+							<a class="carousel-control left" href="#myCarousel" data-slide="prev">
+										<i class="fa fa-angle-right"></i>
+							</a>
+							<a class="carousel-control right" href="#myCarousel" data-slide="next">
+										<i class="fa fa-angle-left"></i>
+							</a>
+						</div>
+					 </div>
+				 </div>
+				 <div class="col-md-8 col-sm-8">
+							<h2><a href="blog_item.html">ارتقای کیفیت زعفران نیازمند کمک بخش خصوصی </a></h2>
+							<ul class="blog-info">
+                                <li><i class="fa fa-tags"></i>نوشته شده توسط مدیر</li>
+								<li><i class="fa fa-calendar"></i> 25/07/2013</li>
+                                 &nbsp;&nbsp; &nbsp;&nbsp;
+								<li><i class="fa fa-clock-o"></i>    دو دقیقه پیش</li>
+
+							</ul>
+							<p> دبیرکانون هماهنگی دانش زعفران ایران با بیان اینکه اجرای این طرح باید در بخش خصوصی انجام شود، گفت: کانون فقط تامین اعتبارات الگویی این طرح را بر عهده داشته است.
+
+خلیل خلیلی در گفت‌وگو با خبرنگار خبرگزاری دانشجویان ایران (ایسنا) منطقه خراسان جنوبی، گفت: طرح ارتقای کیفیت زعفران با هماهنگی بخش‌های مختلف ازجمله جهاد کشاورزی، شورای ملی زعفران و مقامات محلی اقدام به آموزش کشاورزان در نحوه برداشت و فرآوری پس از برداشت زعفران کرده است. </p>
+							<div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">
+                                    ادامه مطلب
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_2" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                      وی با اشاره به اینکه برای سه روستا به عنوان روستاهای نمونه در تولید زعفران جلسات آموزشی به مدت دو ماه به صورت فشرده برگزار شد، اظهارکرد: 40 نفر از کشاورزان به طور متوسط پنج ساعت در خصوص نحوه برداشت و خشک کردن زعفران آموزش دیده‌اند.
+
+خلیلی با اشاره به اینکه کشاورزان طی ایام برداشت محصول اقدام به برداشت زعفران مطابق رویه آموزش کردند، تصریح کرد: محصول بعد از برداشت بلافاصله به کارگاه فرآوری منتقل و توسط خشک کن‌ها به صورت کاملا فنی خشک و بسته‌بندی شد.
+
+دبیرکانون هماهنگی دانش زعفران ایران ادامه داد: برای هر یک از محصولات کدی خاص که بیانگر اطلاعاتی در خصوص تولید کننده محصول و اطلاعات دیگر بود تهیه شد.
+
+خلیلی با اشاره به اینکه محصول تولیدی به این شیوه دارای کیفیت بالاتری از نظر استاندارد است، تصریح کرد: این محصول دارای شناسنامه است.
+
+وی با بیان اینکه محصولات تولیدی به این شیوه در سال اول قریب به 20 درصد بالاتر از قیمت قبلی توسط بخش خصوصی خریداری شد، افزود: ورود زعفران ایران با کیفیتی بالاتر به بازارهای داخلی و خارجی، افزایش عایدات کشاورز از محصولات تولیدی و جلوگیری از تقلب زعفران را از مزایای اجرای این طرح به صورت کلان عنوان کرد.
+
+دبیرکانون هماهنگی دانش زعفران ایران آموزش مستمر به کشاورزان، شناسایی دقیق بازار هدف، آموزش تجار و صادرکنندگان، ایجاد برند زعفران ایران، برگزاری نشست‌ها و سمینارهای تخصصی و انجام کارهای پژوهشی از برنامه‌های مهم کانون زعفران است.
+
+خلیلی با اشاره به اینکه امکان پژوهش در دانشگاه‌ها و موسسات پژوهشی فراهم است، خاطر نشان کرد: برای انجام پژوهش در مودر زعفران اعتبارات کافی وجود ندارد.
+                                  </div>
+                               </div>
+                            </div>
+                             <div class="panel panel-success">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">
+                                     نظرات
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_3" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                     <div class="media">
+                                         <a href="#" class="pull-left">
+                                             <img src="static/img/people/amirmahdi2.jpg" alt="" class="media-object">
+                                         </a>
+                                         <div class="media-body">
+                                             <ul>
+                                                 <i class="fa fa-pencil"> امیر مهدی</i>
+                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-plus"></i></a>
+                                                 &nbsp;&nbsp;
+                                                 <i>7</i>
+                                                 &nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-minus"></i></a>
+                                             </ul>
+
+                                             <p>خاله جون تلاش کن سایت خوبی داشته باشی </p>
+                                         </div>
+                                     </div>
+                                      <div class="media">
+                                          <a href="#" class="pull-left">
+                                              <img src="static/img/people/images1.jpg" alt="" class="media-object">
+                                          </a>
+                                          <div class="media-body">
+                                               <ul>
+                                                 <i class="fa fa-pencil"> زعفران</i>
+                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-plus"></i></a>
+                                                 &nbsp;&nbsp;
+                                                 <i>7</i>
+                                                 &nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-minus"></i></a>
+                                             </ul>
+                                                     <p>هرچه می خواهد دل تنگت بگو </p>
+                                          </div>
+                                      </div>
+                                      <hr>
+                                      <div class="panel panel-warning">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_4">
+                                     افزودن نظر
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_4" class="panel-collapse collapse" style="height: 0px;">
+                                  <div class="panel-body">
+                                      <form class="form-horizontal" role="form">
+                                          <div class="form-body">
+                                              <div class="form-group">
+                                                 <div class="col-md-12">
+                                                     <input type="text" class="form-control input-lg" placeholder="نظر خود را وارد کنید...">
+                                                 </div>
+                                              </div>
+                                          </div>
+                                          <div class="form-actions right">
+                                              <button type="button" class="btn btn-link">ارسال نظر</button>
+                                          </div>
+                                      </form>
+                                  </div>
+                               </div>
+                            </div>
+                                  </div>
+                               </div>
+                             </div>
+
+                 </div>
+                 </div>
+                 <hr class="blog-post-sep">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <img src="static/img/news/5.jpg" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+							<h2><a href="blog_item.html">ارتقای کیفیت زعفران نیازمند کمک بخش خصوصی </a></h2>
+							<ul class="blog-info">
+								<li><i class="fa fa-tags"></i>نوشته شده توسط مدیر</li>
+								<li><i class="fa fa-calendar"></i> 25/07/2013</li>
+                                 &nbsp;&nbsp; &nbsp;&nbsp;
+								<li><i class="fa fa-clock-o"></i>  بیست دقیقه پیش</li>
+							</ul>
+							<p> دبیرکانون هماهنگی دانش زعفران ایران با بیان اینکه اجرای این طرح باید در بخش خصوصی انجام شود، گفت: کانون فقط تامین اعتبارات الگویی این طرح را بر عهده داشته است.
+
+خلیل خلیلی در گفت‌وگو با خبرنگار خبرگزاری دانشجویان ایران (ایسنا) منطقه خراسان جنوبی، گفت: طرح ارتقای کیفیت زعفران با هماهنگی بخش‌های مختلف ازجمله جهاد کشاورزی، شورای ملی زعفران و مقامات محلی اقدام به آموزش کشاورزان در نحوه برداشت و فرآوری پس از برداشت زعفران کرده است. </p>
+							<div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">
+                                    ادامه مطلب
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_2" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                      وی با اشاره به اینکه برای سه روستا به عنوان روستاهای نمونه در تولید زعفران جلسات آموزشی به مدت دو ماه به صورت فشرده برگزار شد، اظهارکرد: 40 نفر از کشاورزان به طور متوسط پنج ساعت در خصوص نحوه برداشت و خشک کردن زعفران آموزش دیده‌اند.
+
+خلیلی با اشاره به اینکه کشاورزان طی ایام برداشت محصول اقدام به برداشت زعفران مطابق رویه آموزش کردند، تصریح کرد: محصول بعد از برداشت بلافاصله به کارگاه فرآوری منتقل و توسط خشک کن‌ها به صورت کاملا فنی خشک و بسته‌بندی شد.
+
+دبیرکانون هماهنگی دانش زعفران ایران ادامه داد: برای هر یک از محصولات کدی خاص که بیانگر اطلاعاتی در خصوص تولید کننده محصول و اطلاعات دیگر بود تهیه شد.
+
+خلیلی با اشاره به اینکه محصول تولیدی به این شیوه دارای کیفیت بالاتری از نظر استاندارد است، تصریح کرد: این محصول دارای شناسنامه است.
+
+وی با بیان اینکه محصولات تولیدی به این شیوه در سال اول قریب به 20 درصد بالاتر از قیمت قبلی توسط بخش خصوصی خریداری شد، افزود: ورود زعفران ایران با کیفیتی بالاتر به بازارهای داخلی و خارجی، افزایش عایدات کشاورز از محصولات تولیدی و جلوگیری از تقلب زعفران را از مزایای اجرای این طرح به صورت کلان عنوان کرد.
+
+دبیرکانون هماهنگی دانش زعفران ایران آموزش مستمر به کشاورزان، شناسایی دقیق بازار هدف، آموزش تجار و صادرکنندگان، ایجاد برند زعفران ایران، برگزاری نشست‌ها و سمینارهای تخصصی و انجام کارهای پژوهشی از برنامه‌های مهم کانون زعفران است.
+
+خلیلی با اشاره به اینکه امکان پژوهش در دانشگاه‌ها و موسسات پژوهشی فراهم است، خاطر نشان کرد: برای انجام پژوهش در مودر زعفران اعتبارات کافی وجود ندارد.
+                                  </div>
+                               </div>
+                            </div>
+                             <div class="panel panel-success">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">
+                                     نظرات
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_3" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                     <div class="media">
+                                         <a href="#" class="pull-left">
+                                             <img src="static/img/people/amirmahdi2.jpg" alt="" class="media-object">
+                                         </a>
+                                         <div class="media-body">
+                                             <ul>
+                                                 <i class="fa fa-pencil"> امیر مهدی</i>
+                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-plus"></i></a>
+                                                 &nbsp;&nbsp;
+                                                 <i>7</i>
+                                                 &nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-minus"></i></a>
+                                             </ul>
+
+                                             <p>خاله جون تلاش کن سایت خوبی داشته باشی </p>
+                                         </div>
+                                     </div>
+                                      <div class="media">
+                                          <a href="#" class="pull-left">
+                                              <img src="static/img/people/images1.jpg" alt="" class="media-object">
+                                          </a>
+                                          <div class="media-body">
+                                               <ul>
+                                                 <i class="fa fa-pencil"> زعفران</i>
+                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-plus"></i></a>
+                                                 &nbsp;&nbsp;
+                                                 <i>7</i>
+                                                 &nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-minus"></i></a>
+                                             </ul>
+                                                     <p>هرچه می خواهد دل تنگت بگو </p>
+                                          </div>
+                                      </div>
+                                      <hr>
+                                      <div class="panel panel-warning">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_4">
+                                     افزودن نظر
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_4" class="panel-collapse collapse" style="height: 0px;">
+                                  <div class="panel-body">
+                                     ادیتور متن
+                                  </div>
+                               </div>
+                            </div>
+                                  </div>
+                               </div>
+                             </div>
+
+                 </div>
+                    </div>
+                    <hr class="blog-post-sep">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-4">
+                            <img src="static/img/news/6.jpg" alt="" class="img-responsive">
+                        </div>
+                        <div class="col-md-8 col-sm-8">
+							<h2><a href="blog_item.html">ارتقای کیفیت زعفران نیازمند کمک بخش خصوصی </a></h2>
+							<ul class="blog-info">
+								<li><i class="fa fa-tags"></i>نوشته شده توسط مدیر</li>
+								<li><i class="fa fa-calendar"></i> 25/07/2013</li>
+                                 &nbsp;&nbsp; &nbsp;&nbsp;
+								<li><i class="fa fa-clock-o"></i>  یک ساعت پیش</li>
+							</ul>
+							<p> دبیرکانون هماهنگی دانش زعفران ایران با بیان اینکه اجرای این طرح باید در بخش خصوصی انجام شود، گفت: کانون فقط تامین اعتبارات الگویی این طرح را بر عهده داشته است.
+
+خلیل خلیلی در گفت‌وگو با خبرنگار خبرگزاری دانشجویان ایران (ایسنا) منطقه خراسان جنوبی، گفت: طرح ارتقای کیفیت زعفران با هماهنگی بخش‌های مختلف ازجمله جهاد کشاورزی، شورای ملی زعفران و مقامات محلی اقدام به آموزش کشاورزان در نحوه برداشت و فرآوری پس از برداشت زعفران کرده است. </p>
+							<div class="panel panel-default">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_2">
+                                    ادامه مطلب
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_2" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                      وی با اشاره به اینکه برای سه روستا به عنوان روستاهای نمونه در تولید زعفران جلسات آموزشی به مدت دو ماه به صورت فشرده برگزار شد، اظهارکرد: 40 نفر از کشاورزان به طور متوسط پنج ساعت در خصوص نحوه برداشت و خشک کردن زعفران آموزش دیده‌اند.
+
+خلیلی با اشاره به اینکه کشاورزان طی ایام برداشت محصول اقدام به برداشت زعفران مطابق رویه آموزش کردند، تصریح کرد: محصول بعد از برداشت بلافاصله به کارگاه فرآوری منتقل و توسط خشک کن‌ها به صورت کاملا فنی خشک و بسته‌بندی شد.
+
+دبیرکانون هماهنگی دانش زعفران ایران ادامه داد: برای هر یک از محصولات کدی خاص که بیانگر اطلاعاتی در خصوص تولید کننده محصول و اطلاعات دیگر بود تهیه شد.
+
+خلیلی با اشاره به اینکه محصول تولیدی به این شیوه دارای کیفیت بالاتری از نظر استاندارد است، تصریح کرد: این محصول دارای شناسنامه است.
+
+وی با بیان اینکه محصولات تولیدی به این شیوه در سال اول قریب به 20 درصد بالاتر از قیمت قبلی توسط بخش خصوصی خریداری شد، افزود: ورود زعفران ایران با کیفیتی بالاتر به بازارهای داخلی و خارجی، افزایش عایدات کشاورز از محصولات تولیدی و جلوگیری از تقلب زعفران را از مزایای اجرای این طرح به صورت کلان عنوان کرد.
+
+دبیرکانون هماهنگی دانش زعفران ایران آموزش مستمر به کشاورزان، شناسایی دقیق بازار هدف، آموزش تجار و صادرکنندگان، ایجاد برند زعفران ایران، برگزاری نشست‌ها و سمینارهای تخصصی و انجام کارهای پژوهشی از برنامه‌های مهم کانون زعفران است.
+
+خلیلی با اشاره به اینکه امکان پژوهش در دانشگاه‌ها و موسسات پژوهشی فراهم است، خاطر نشان کرد: برای انجام پژوهش در مودر زعفران اعتبارات کافی وجود ندارد.
+                                  </div>
+                               </div>
+                            </div>
+                             <div class="panel panel-success">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_3">
+                                     نظرات
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_3" class="panel-collapse collapse">
+                                  <div class="panel-body">
+                                     <div class="media">
+                                         <a href="#" class="pull-left">
+                                             <img src="static/img/people/amirmahdi2.jpg" alt="" class="media-object">
+                                         </a>
+                                         <div class="media-body">
+                                             <ul>
+                                                 <i class="fa fa-pencil"> امیر مهدی</i>
+                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-plus"></i></a>
+                                                 &nbsp;&nbsp;
+                                                 <i>7</i>
+                                                 &nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-minus"></i></a>
+                                             </ul>
+
+                                             <p>خاله جون تلاش کن سایت خوبی داشته باشی </p>
+                                         </div>
+                                     </div>
+                                      <div class="media">
+                                          <a href="#" class="pull-left">
+                                              <img src="static/img/people/images1.jpg" alt="" class="media-object">
+                                          </a>
+                                          <div class="media-body">
+                                               <ul>
+                                                 <i class="fa fa-pencil"> زعفران</i>
+                                                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-plus"></i></a>
+                                                 &nbsp;&nbsp;
+                                                 <i>7</i>
+                                                 &nbsp;&nbsp;
+                                                 <a href="#"><i class="fa fa-minus"></i></a>
+                                             </ul>
+                                                     <p>هرچه می خواهد دل تنگت بگو </p>
+                                          </div>
+                                      </div>
+                                      <hr>
+                                      <div class="panel panel-warning">
+                               <div class="panel-heading">
+                                  <h4 class="panel-title">
+                                     <a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_4">
+                                     افزودن نظر
+                                     </a>
+                                  </h4>
+                               </div>
+                               <div id="accordion1_4" class="panel-collapse collapse" style="height: 0px;">
+                                  <div class="panel-body">
+                                     ادیتور متن
+                                  </div>
+                               </div>
+                            </div>
+                                  </div>
+                               </div>
+                             </div>
+
+                 </div>
+                    </div>
+
+
+                    </div>
+                    <div class="text-center">
+                        <ul class="pagination pagination-centered">
+                            <li><a href="#">قبلی</a></li>
+                            <li><a href="#">1</a></li>
+                            <li><a href="#">2</a></li>
+                            <li class="active"><a href="#">3</a></li>
+                            <li><a href="#">4</a></li>
+                            <li><a href="#">5</a></li>
+                            <li><a href="#">بعدی</a></li>
+                        </ul>
+                    </div>
+
+            </div>
+         </div>
+       </div>
+    </div>
+</div>
+    </div>
+{% endblock %}
