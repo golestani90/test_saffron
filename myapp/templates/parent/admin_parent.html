@@ -1,113 +1,60 @@
 {% load static %}
 <!DOCTYPE html>
-<html lang="en" class="no-js">
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en" class="no-js" xmlns="http://www.w3.org/1999/html">
 <!--<![endif]-->
 <!-- BEGIN HEAD -->
 <head>
 <meta charset="utf-8"/>
-<title>مدیر</title>
+<title>management</title>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta content="width=device-width, initial-scale=1" name="viewport"/>
 <meta content="" name="description"/>
 <meta content="" name="author"/>
 <!-- BEGIN GLOBAL MANDATORY STYLES -->
-{#<link href="{% static 'static_admin/fonts.googleapis.com/css@family=open+sans_3a400,300,600,700&subset=all.css' %}" rel="stylesheet" type="text/css"/>#}
 <link href="{% static 'static_admin/plugins/font-awesome/css/font-awesome.min.css' %}" rel="stylesheet" type="text/css"/>
-<link href="{% static 'static_admin/plugins/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet" type="text/css"/>
+<link href="{% static 'static_admin/plugins/bootstrap/css/bootstrap-rtl.min.css' %}" rel="stylesheet" type="text/css"/>
 <link href="{% static 'static_admin/plugins/uniform/css/uniform.default.css' %}" rel="stylesheet" type="text/css"/>
 <!-- END GLOBAL MANDATORY STYLES -->
 <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
-<link href="{% static 'static_admin/plugins/gritter/css/jquery.gritter.css' %}" rel="stylesheet" type="text/css"/>
+<link href="{% static 'static_admin/plugins/gritter/css/jquery.gritter-rtl.css' %}" rel="stylesheet" type="text/css"/>
 <link href="{% static 'static_admin/plugins/bootstrap-daterangepicker/daterangepicker-bs3.css' %}" rel="stylesheet" type="text/css"/>
 <link href="{% static 'static_admin/plugins/fullcalendar/fullcalendar/fullcalendar.css' %}" rel="stylesheet" type="text/css"/>
 <link href="{% static 'static_admin/plugins/jqvmap/jqvmap/jqvmap.css' %}" rel="stylesheet" type="text/css"/>
 <link href="{% static 'static_admin/plugins/jquery-easy-pie-chart/jquery.easy-pie-chart.css' %}" rel="stylesheet" type="text/css"/>
 <!-- END PAGE LEVEL PLUGIN STYLES -->
 <!-- BEGIN THEME STYLES -->
-<link href="{% static 'static_admin/css/style-metronic.css' %}" rel="stylesheet" type="text/css"/>
-<link href="{% static 'static_admin/css/style.css' %}" rel="stylesheet" type="text/css"/>
-<link href="{% static 'static_admin/css/style-responsive.css' %}" rel="stylesheet" type="text/css"/>
-<link href="{% static 'static_admin/css/plugins.css' %}" rel="stylesheet" type="text/css"/>
-<link href="{% static 'static_admin/css/pages/tasks.css' %}" rel="stylesheet" type="text/css"/>
-<link href="{% static 'static_admin/css/themes/default.css' %}" rel="stylesheet" type="text/css" id="style_color"/>
-<link href="{% static 'static_admin/css/print.css' %}" rel="stylesheet" type="text/css" media="print"/>
-<link href="{% static 'static_admin/css/custom.css' %}" rel="stylesheet" type="text/css"/>
- <link href="{% static 'css/custom-rtl.css' %}" rel="stylesheet" type="text/css"/>
-<link href="{% static 'css/font_fa.css' %}" rel="stylesheet" type="text/css"/>
+     <link href="{% static 'static_admin/css/font_fa.css' %}" rel="stylesheet" type="text/css"/>
+<link href="{% static 'static_admin/css/style-metronic-rtl.css' %}" rel="stylesheet" type="text/css"/>
+<link href="{% static 'static_admin/css/style-rtl.css' %}" rel="stylesheet" type="text/css"/>
+<link href="{% static 'static_admin/css/style-responsive-rtl.css' %}" rel="stylesheet" type="text/css"/>
+<link href="{% static 'static_admin/css/plugins-rtl.css' %}" rel="stylesheet" type="text/css"/>
+<link href="{% static 'static_admin/css/pages/tasks-rtl.css' %}" rel="stylesheet" type="text/css"/>
+<link href="{% static 'static_admin/css/themes/default-rtl.css' %}" rel="stylesheet" type="text/css" id="style_color"/>
+<link href="{% static 'static_admin/css/custom-rtl.css' %}" rel="stylesheet" type="text/css"/>
+<!-- END THEME STYLES -->
 <link rel="shortcut icon" href="favicon.ico.jpg"/>
 </head>
-<body class="page-header-fixed font">
-  <div class="header navbar navbar-fixed-top">
+<!-- END HEAD -->
+<body class="page-header-fixed">
+ <div class="header navbar navbar-fixed-top">
+	<!-- BEGIN TOP NAVIGATION BAR -->
 	<div class="header-inner">
-		<a class="navbar-brand pull-right" href="index.html">
-			<img src="{% static 'static_admin/img/logo.jpg' %}" alt="logo" class="img-responsive">
+		<!-- BEGIN LOGO -->
+		<a class="navbar-brand" href="index.html">
+			<img src="{% static 'static_admin/img/logo.png' %}" alt="logo" class="img-responsive">
 		</a>
-
+		<!-- END LOGO -->
+		<!-- BEGIN RESPONSIVE MENU TOGGLER -->
 		<a href="javascript:;" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 			<img src="{% static 'static_admin/img/menu-toggler.png' %}" alt="">
 		</a>
-        <ul class="nav navbar-nav pull-left ">
-			<li class="dropdown user">
-				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-					<img alt="" src="{% static 'static_admin/img/avatar.jpg' %}">
-					<span class="username">
-						golestani
-					</span>
-					<i class="fa fa-angle-down"></i>
-				</a>
-				<ul class="dropdown-menu">
-					<li>
-						<a href="extra_profile.html" >
-                            &nbsp;&nbsp;
-							<i class="fa fa-user "></i>&nbsp;&nbsp; پروفایل من
-						</a>
-					</li>
-					<li>
-						<a href="page_calendar.html">
-                            &nbsp;&nbsp;
-							<i class="fa fa-calendar"></i>&nbsp;&nbsp; تقویم کاری
-						</a>
-					</li>
-					<li>
-						<a href="inbox.html" >&nbsp;&nbsp;
-							<span class="badge badge-danger ">
-								 3
-							</span>
-                            <i class="fa fa-envelope"></i>&nbsp;&nbsp; صندوق دریافتی
-						</a>
-					</li>
-					<li>
-						<a href="#">&nbsp;&nbsp;
-							<i class="fa fa-tasks"></i>&nbsp;&nbsp;
-                            کارهای من
-
-							<span class="badge badge-success">
-								 7
-							</span>
-						</a>
-					</li>
-					<li class="divider">
-					</li>
-					<li>
-						<a href="javascript:;" id="trigger_fullscreen">&nbsp;&nbsp;
-							<i class="fa fa-arrows"></i>&nbsp;&nbsp;
-                            تمام صفحه
-						</a>
-					</li>
-					<li>
-						<a href="extra_lock.html">&nbsp;&nbsp;
-							<i class="fa fa-lock"></i>&nbsp;&nbsp;
-                            قفل صفحه
-						</a>
-					</li>
-					<li>
-						<a href="login.html">&nbsp;&nbsp;
-							<i class="fa fa-key"></i> &nbsp;&nbsp; خروج
-						</a>
-					</li>
-				</ul>
-			</li>
-
+		<!-- END RESPONSIVE MENU TOGGLER -->
+		<!-- BEGIN TOP NAVIGATION MENU -->
+		<ul class="nav navbar-nav pull-right">
+			<!-- BEGIN NOTIFICATION DROPDOWN -->
 			<li class="dropdown" id="header_notification_bar">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 					<i class="fa fa-warning"></i>
@@ -115,10 +62,10 @@
 						 6
 					</span>
 				</a>
-				<ul class="dropdown-menu extended notification font">
+				<ul class="dropdown-menu extended notification">
 					<li>
 						<p>
-				کارهای انجام نشده
+							 6 اتفاق جدید بررسی نشده
 						</p>
 					</li>
 					<li>
@@ -127,9 +74,9 @@
 								<a href="#">
 									<span class="label label-sm label-icon label-success">
 										<i class="fa fa-plus"></i>
-									</span>&nbsp;&nbsp;&nbsp;
-									 کاربرانی که تازه ثبت نام کرده اند.
-									&nbsp;<span class="time">
+									</span>
+									 چندین کاربر تازه ثبت نام کرده اند.
+									<span class="time">
 										 هم اکنون
 									</span>
 								</a>
@@ -138,10 +85,10 @@
 								<a href="#">
 									<span class="label label-sm label-icon label-danger">
 										<i class="fa fa-bolt"></i>
-									</span>&nbsp;&nbsp;&nbsp;
-									 6 محصول برای خرید سفارش شده.
-									&nbsp;<span class="time">
-										 15 دقیقه پیش
+									</span>
+									اخبار rss به مدت یک روز ثبت نشده اند.
+									<span class="time">
+										15 دقیقه پیش
 									</span>
 								</a>
 							</li>
@@ -149,20 +96,25 @@
 								<a href="#">
 									<span class="label label-sm label-icon label-warning">
 										<i class="fa fa-bell-o"></i>
-									</span>&nbsp;&nbsp;&nbsp;
-									30 خبر تازه.
-									&nbsp;<span class="time">
-										  یک روز پیش
+									</span>
+									 6 تقاضا برای خرید دارید.
+									<span class="time">
+										 20 دقیقه پیش
 									</span>
 								</a>
 							</li>
 
-						</ul><div class="slimScrollBar" style="background-color: rgb(187, 187, 187); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; right: 1px; background-position: initial initial; background-repeat: initial initial;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; background-color: rgb(234, 234, 234); opacity: 0.2; z-index: 90; right: 1px; background-position: initial initial; background-repeat: initial initial;"></div></div>
+						</ul><div class="slimScrollBar" style="background-color: rgb(187, 187, 187); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; left: 1px; background-position: initial initial; background-repeat: initial initial;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; background-color: rgb(234, 234, 234); opacity: 0.2; z-index: 90; left: 1px; background-position: initial initial; background-repeat: initial initial;"></div></div>
 					</li>
-
+					<li class="external">
+						<a href="#">
+							 دیدن همه اتفاق ها <i class="m-icon-swapright"></i>
+						</a>
+					</li>
 				</ul>
 			</li>
-
+			<!-- END NOTIFICATION DROPDOWN -->
+			<!-- BEGIN INBOX DROPDOWN -->
 			<li class="dropdown" id="header_inbox_bar">
 				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
 					<i class="fa fa-envelope"></i>
@@ -173,7 +125,7 @@
 				<ul class="dropdown-menu extended inbox">
 					<li>
 						<p>
-							 پیام های دریافتی شما
+							 شما 5 پیام دارید
 						</p>
 					</li>
 					<li>
@@ -181,112 +133,103 @@
 							<li>
 								<a href="inbox.html@a=view.htm">
 									<span class="photo">
-										<img src="static/img/avatar2.jpg" alt="">
+										<img src="{% static 'static_admin/img/avatar.png' %}" alt="">
 									</span>
 									<span class="subject">
 										<span class="from">
-											گلستانی
+											 امیرمهدی
 										</span>
 										<span class="time">
 											 هم اکنون
 										</span>
 									</span>
 									<span class="message">
-										 00000000000000000000000000000000000000
+										نظرات .............................................
 									</span>
 								</a>
 							</li>
-							<li>
+                            <li>
 								<a href="inbox.html@a=view.htm">
 									<span class="photo">
-										<img src="static/img/avatar2.jpg" alt="">
+										<img src="{% static 'static_admin/img/avatar.png' %}" alt="">
 									</span>
 									<span class="subject">
 										<span class="from">
-											گلستانی
+											 امیرمهدی
 										</span>
 										<span class="time">
 											 هم اکنون
 										</span>
 									</span>
 									<span class="message">
-										 00000000000000000000000000000000000000
+										نظرات .............................................
 									</span>
 								</a>
 							</li>
-							<li>
+                            <li>
 								<a href="inbox.html@a=view.htm">
 									<span class="photo">
-										<img src="static/img/avatar2.jpg" alt="">
+										<img src="{% static 'static_admin/img/avatar.png' %}" alt="">
 									</span>
 									<span class="subject">
 										<span class="from">
-											گلستانی
+											 امیرمهدی
 										</span>
 										<span class="time">
 											 هم اکنون
 										</span>
 									</span>
 									<span class="message">
-										 00000000000000000000000000000000000000
+										نظرات .............................................
 									</span>
 								</a>
 							</li>
-							<li>
-								<a href="inbox.html@a=view.htm">
-									<span class="photo">
-										<img src="static/img/avatar2.jpg" alt="">
-									</span>
-									<span class="subject">
-										<span class="from">
-											گلستانی
-										</span>
-										<span class="time">
-											 هم اکنون
-										</span>
-									</span>
-									<span class="message">
-										 00000000000000000000000000000000000000
-									</span>
-								</a>
-							</li>
-							<li>
-								<a href="inbox.html@a=view.htm">
-									<span class="photo">
-										<img src="static/img/avatar2.jpg" alt="">
-									</span>
-									<span class="subject">
-										<span class="from">
-											گلستانی
-										</span>
-										<span class="time">
-											 هم اکنون
-										</span>
-									</span>
-									<span class="message">
-										 00000000000000000000000000000000000000
-									</span>
-								</a>
-							</li>
-						</ul><div class="slimScrollBar" style="background-color: rgb(187, 187, 187); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; right: 1px; background-position: initial initial; background-repeat: initial initial;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; background-color: rgb(234, 234, 234); opacity: 0.2; z-index: 90; right: 1px; background-position: initial initial; background-repeat: initial initial;"></div></div>
-					</li>
 
+
+						</ul><div class="slimScrollBar" style="background-color: rgb(187, 187, 187); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; left: 1px; background-position: initial initial; background-repeat: initial initial;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; background-color: rgb(234, 234, 234); opacity: 0.2; z-index: 90; left: 1px; background-position: initial initial; background-repeat: initial initial;"></div></div>
+					</li>
+					<li class="external">
+						<a href="inbox.html">
+							 دیدن همه پیام ها <i class="m-icon-swapright"></i>
+						</a>
+					</li>
 				</ul>
 			</li>
+			<!-- END INBOX DROPDOWN -->
+
+			<!-- BEGIN USER LOGIN DROPDOWN -->
+			<li class="dropdown user">
+				<a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+					{% block img_admin %}{% endblock %}
+					<span class="username">
+						{% block username %}{% endblock %}
+					</span>
+
+				</a>
+
+			</li>
+			<!-- END USER LOGIN DROPDOWN -->
 		</ul>
+		<!-- END TOP NAVIGATION MENU -->
 	</div>
-  </div>
-   <div class="clearfix">
-   </div>
-   <div class="page-container">
-    <div class="page-sidebar-wrapper">
+	<!-- END TOP NAVIGATION BAR -->
+ </div>
+ <div class="clearfix">
+ </div>
+ <div class="page-container ">
+	<!-- BEGIN SIDEBAR -->
+	<div class="page-sidebar-wrapper">
 		<div class="page-sidebar navbar-collapse collapse">
+			<!-- BEGIN SIDEBAR MENU -->
 			<ul class="page-sidebar-menu" data-auto-scroll="true" data-slide-speed="200">
 				<li class="sidebar-toggler-wrapper">
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
 					<div class="sidebar-toggler hidden-phone">
 					</div>
+					<!-- BEGIN SIDEBAR TOGGLER BUTTON -->
 				</li>
 				<li class="sidebar-search-wrapper">
+					<!-- BEGIN RESPONSIVE QUICK SEARCH FORM -->
 					<form class="sidebar-search" action="extra_search.html" method="POST">
 						<div class="form-container">
 							<div class="input-box">
@@ -297,41 +240,36 @@
 							</div>
 						</div>
 					</form>
+					<!-- END RESPONSIVE QUICK SEARCH FORM -->
 				</li>
-				<li class="start  ">
+				<li class="start ">
 					<a href="index.html">
 						<i class="fa fa-home"></i>
 						<span class="title">
-							صفحه اصلی
-						</span>
-						<span class="selected">
+						خانه
 						</span>
 					</a>
 				</li>
-
-				<li class="active">
-					<a href="javascript:;" >
-						<i class="fa fa-sitemap"></i>
-						<span class="title ">
-						اخبار
+				<li>
+					<a href="javascript:;" class="angle-down">
+						<i class="fa fa-coffee"></i>
+						<span class="title">
+							اخبار
 						</span>
 						<span class="arrow ">
 						</span>
 					</a>
+
 					<ul class="sub-menu">
 						<li>
-							<a href="page_portfolio.html">
+							<a href="{% url 'myapp.views.admin_news_rss' %}">
 								<i class="fa fa-rss"></i>
-								<span class="badge badge-warning badge-roundless">
-									جدید
-								</span>
-							دریافتی rss
+								اخبار rss
 							</a>
 						</li>
-
 						<li>
-							<a href="page_blog_item.html">&nbsp;&nbsp;&nbsp;
-								<i class="fa fa-font"></i>
+							<a href="{% url 'myapp.views.admin_news_hand' %}">
+								<i class="fa fa-magic"></i>
 								اخبار دستی
 							</a>
 						</li>
@@ -339,482 +277,70 @@
 					</ul>
 				</li>
 
-			</ul>
 
+			</ul>
+			<!-- END SIDEBAR MENU -->
 		</div>
-    </div>
-    <div class="page-content-wrapper ">
-        <div class="page-content">
-            <div class="row">
+	</div>
+	<!-- END SIDEBAR -->
+	<!-- BEGIN CONTENT -->
+	<div class="page-content-wrapper">
+		<div class="page-content" style="min-height:1049px !important">
+			<!-- BEGIN SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+			<div class="modal fade" id="portlet-config" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				<div class="modal-dialog">
+					<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal" aria-hidden="true"></button>
+							<h4 class="modal-title">Modal title</h4>
+						</div>
+						<div class="modal-body">
+							 Widget settings form goes here
+						</div>
+						<div class="modal-footer">
+							<button type="button" class="btn blue">Save changes</button>
+							<button type="button" class="btn default" data-dismiss="modal">Close</button>
+						</div>
+					</div>
+					<!-- /.modal-content -->
+				</div>
+				<!-- /.modal-dialog -->
+			</div>
+			<!-- /.modal -->
+			<!-- END SAMPLE PORTLET CONFIGURATION MODAL FORM-->
+
+			<!-- BEGIN PAGE HEADER-->
+			<div class="row">
 				<div class="col-md-12">
 					<!-- BEGIN PAGE TITLE & BREADCRUMB-->
-					<h3 class="page-title font">
-					مدیریت اخبار
-					</h3>
-					<ul class="page-breadcrumb breadcrumb">
-						<li>
+					<h3 class="page-title">
+					<small>{% block describtion %} {% endblock %}</small>
+					{% block title %}{% endblock %}</h3>
+
+					<!-- END PAGE TITLE & BREADCRUMB-->
+				</div>
+			</div>
+			<!-- END PAGE HEADER-->
+			<!-- BEGIN PAGE CONTENT-->
+        <ul class="page-breadcrumb breadcrumb"><li>
 							<i class="fa fa-home"></i>
 							<a href="index.html">
-							  صفحه اصلی
+								خانه
 							</a>
 							<i class="fa fa-angle-left"></i>
 						</li>
-						<li>
-							<a href="#">
-								اخبار
-							</a>
-						</li>
-						<li class="pull-right">
-							<div id="dashboard-report-range" class="dashboard-date-range tooltips" data-placement="top" data-original-title="Change dashboard date range">
-								<i class="fa fa-calendar"></i>
-								<span>
-								</span>
-								<i class="fa fa-angle-down"></i>
-							</div>
-						</li>
+						{% block place %}{% endblock %}
+
+
 					</ul>
-					<!-- END PAGE TITLE & BREADCRUMB-->
-				</div>
-                <div class="col-md-6 col-sm-6">
-					<div class="portlet box green tasks-widget">
-						<div class="portlet-title">
-							<div class="caption">
-								<i class="fa fa-check"></i>Tasks
-							</div>
-							<div class="tools">
-								<a href="#portlet-config" data-toggle="modal" class="config">
-								</a>
-								<a href="default.htm" class="reload">
-								</a>
-							</div>
-							<div class="actions">
-								<div class="btn-group">
-									<a class="btn default btn-xs" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-										 More <i class="fa fa-angle-down"></i>
-									</a>
-									<ul class="dropdown-menu pull-right">
-										<li>
-											<a href="#">
-												<i class="i"></i> All Project
-											</a>
-										</li>
-										<li class="divider">
-										</li>
-										<li>
-											<a href="#">
-												 AirAsia
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												 Cruise
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												 HSBC
-											</a>
-										</li>
-										<li class="divider">
-										</li>
-										<li>
-											<a href="#">
-												 Pending
-												<span class="badge badge-important">
-													 4
-												</span>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												 Completed
-												<span class="badge badge-success">
-													 12
-												</span>
-											</a>
-										</li>
-										<li>
-											<a href="#">
-												 Overdue
-												<span class="badge badge-warning">
-													 9
-												</span>
-											</a>
-										</li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="portlet-body">
-							<div class="task-content">
-								<div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 305px;"><div class="scroller" style="height: 305px; overflow: hidden; width: auto;" data-always-visible="1" data-rail-visible1="1">
-									<!-- START TASK LIST -->
-									<ul class="task-list">
-										<li>
-											<div class="task-checkbox">
-												<div class="checker"><span><input type="checkbox" class="liChild" value=""></span></div>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-													 Present 2013 Year IPO Statistics at Board Meeting
-												</span>
-												<span class="label label-sm label-success">
-													 Company
-												</span>
-												<span class="task-bell">
-													<i class="fa fa-bell-o"></i>
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-																<i class="fa fa-check"></i> Complete
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-pencil"></i> Edit
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-trash-o"></i> Cancel
-															</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<div class="checker"><span><input type="checkbox" class="liChild" value=""></span></div>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-													 Hold An Interview for Marketing Manager Position
-												</span>
-												<span class="label label-sm label-danger">
-													 Marketing
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-																<i class="fa fa-check"></i> Complete
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-pencil"></i> Edit
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-trash-o"></i> Cancel
-															</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<div class="checker"><span><input type="checkbox" class="liChild" value=""></span></div>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-													 AirAsia Intranet System Project Internal Meeting
-												</span>
-												<span class="label label-sm label-success">
-													 AirAsia
-												</span>
-												<span class="task-bell">
-													<i class="fa fa-bell-o"></i>
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-																<i class="fa fa-check"></i> Complete
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-pencil"></i> Edit
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-trash-o"></i> Cancel
-															</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<div class="checker"><span><input type="checkbox" class="liChild" value=""></span></div>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-													 Technical Management Meeting
-												</span>
-												<span class="label label-sm label-warning">
-													 Company
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-																<i class="fa fa-check"></i> Complete
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-pencil"></i> Edit
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-trash-o"></i> Cancel
-															</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<div class="checker"><span><input type="checkbox" class="liChild" value=""></span></div>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-													 Kick-off Company CRM Mobile App Development
-												</span>
-												<span class="label label-sm label-info">
-													 Internal Products
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-																<i class="fa fa-check"></i> Complete
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-pencil"></i> Edit
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-trash-o"></i> Cancel
-															</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<div class="checker"><span><input type="checkbox" class="liChild" value=""></span></div>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-													 Prepare Commercial Offer For SmartVision Website Rewamp
-												</span>
-												<span class="label label-sm label-danger">
-													 SmartVision
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-																<i class="fa fa-check"></i> Complete
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-pencil"></i> Edit
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-trash-o"></i> Cancel
-															</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<div class="checker"><span><input type="checkbox" class="liChild" value=""></span></div>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-													 Sign-Off The Comercial Agreement With AutoSmart
-												</span>
-												<span class="label label-sm label-default">
-													 AutoSmart
-												</span>
-												<span class="task-bell">
-													<i class="fa fa-bell-o"></i>
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-																<i class="fa fa-check"></i> Complete
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-pencil"></i> Edit
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-trash-o"></i> Cancel
-															</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li>
-											<div class="task-checkbox">
-												<div class="checker"><span><input type="checkbox" class="liChild" value=""></span></div>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-													 Company Staff Meeting
-												</span>
-												<span class="label label-sm label-success">
-													 Cruise
-												</span>
-												<span class="task-bell">
-													<i class="fa fa-bell-o"></i>
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-																<i class="fa fa-check"></i> Complete
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-pencil"></i> Edit
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-trash-o"></i> Cancel
-															</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-										<li class="last-line">
-											<div class="task-checkbox">
-												<div class="checker"><span><input type="checkbox" class="liChild" value=""></span></div>
-											</div>
-											<div class="task-title">
-												<span class="task-title-sp">
-													 KeenThemes Investment Discussion
-												</span>
-												<span class="label label-sm label-warning">
-													 KeenThemes
-												</span>
-											</div>
-											<div class="task-config">
-												<div class="task-config-btn btn-group">
-													<a class="btn btn-xs default" href="#" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
-														<i class="fa fa-cog"></i><i class="fa fa-angle-down"></i>
-													</a>
-													<ul class="dropdown-menu pull-right">
-														<li>
-															<a href="#">
-																<i class="fa fa-check"></i> Complete
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-pencil"></i> Edit
-															</a>
-														</li>
-														<li>
-															<a href="#">
-																<i class="fa fa-trash-o"></i> Cancel
-															</a>
-														</li>
-													</ul>
-												</div>
-											</div>
-										</li>
-									</ul>
-									<!-- END START TASK LIST -->
-								</div><div class="slimScrollBar" style="background-color: rgb(187, 187, 187); width: 7px; position: absolute; top: 0px; opacity: 0.4; display: block; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; z-index: 99; right: 1px; height: 265.7857142857143px; background-position: initial initial; background-repeat: initial initial;"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-top-left-radius: 7px; border-top-right-radius: 7px; border-bottom-right-radius: 7px; border-bottom-left-radius: 7px; background-color: rgb(234, 234, 234); opacity: 0.2; z-index: 90; right: 1px; background-position: initial initial; background-repeat: initial initial;"></div></div>
-							</div>
-							<div class="task-footer">
-								<span class="pull-right">
-									<a href="#">
-										 See All Tasks <i class="m-icon-swapright m-icon-gray"></i>
-									</a>
-									 &nbsp;
-								</span>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+         {% block body %}
 
-        </div>
-    </div>
-  </div>
+        {% endblock %}
+			<!-- END PAGE CONTENT-->
+		</div>
+	</div>
+	<!-- END CONTENT -->
+</div>
 
 
 
@@ -828,6 +354,37 @@
 
 
 
+
+
+
+
+
+
+
+
+
+<div class="footer">
+	<div class="footer-inner">
+		 2014 © این سایت متعلق به گروه bestsaffron است.
+	</div>
+	<div class="footer-tools">
+		<span class="go-top">
+			<i class="fa fa-angle-up"></i>
+		</span>
+	</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<!-- BEGIN JAVASCRIPTS(Load javascripts at bottom, this will reduce page load time) -->
+<!-- BEGIN CORE PLUGINS -->
 <!--[if lt IE 9]>
 <script src="{% static 'static_admin/plugins/respond.min.js' %}"></script>
 <script src="{% static 'static_admin/plugins/excanvas.min.js' %}"></script>
@@ -869,7 +426,7 @@
 <script src="{% static 'static_admin/scripts/custom/tasks.js' %}" type="text/javascript"></script>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
-jQuery(document).ready(function() {
+jQuery(document).ready(function() {    
    App.init(); // initlayout and core plugins
    Index.init();
    Index.initJQVMAP(); // init index page's custom scripts
@@ -882,6 +439,14 @@ jQuery(document).ready(function() {
    Tasks.initDashboardWidget();
 });
 </script>
+<!--ipt type="text/javascript">  var _gaq = _gaq || [];  _gaq.push(['_setAccount', 'UA-37564768-1']);
+ _gaq.push(['_setDomainName', 'keenthemes.com']);
+  _gaq.push(['_setAllowLinker', true]);
+   _gaq.push(['_trackPageview']);
+    (function() {    var ga = document.createElement('script');
+    ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);  })();</scri-->
 </body>
 
 </html>

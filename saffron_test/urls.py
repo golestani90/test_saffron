@@ -18,5 +18,11 @@ urlpatterns = patterns('',
     #"""======================================================================================================================="""
     #admin
     url(r'^admin_parent$', 'myapp.views.admin_parent', name='admin'),
+    url(r'^admin_news_rss$', 'myapp.views.admin_news_rss', name='admin_news_rss'),
+    url(r'^admin_news_hand$', 'myapp.views.admin_news_hand', name='admin_news_hand'),
+
+
+
+
 
 )

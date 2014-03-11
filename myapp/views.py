@@ -17,7 +17,15 @@ def new_news(request):
 
 
 #ADMIN
-"""============================================================================================================================"""
+"""=================================================================================================================================="""
 def admin_parent(request):
 
-    return render(request,'parent/admin_parent.html')
+    return render(request, 'parent/admin_parent.html')
+"""========================================================="""
+def admin_news_rss(request):
+
+    return render(request, 'news/admin_news_rss.html')
+"""========================================================="""
+def admin_news_hand(request):
+
+    return render(request,'news/admin_news_hand.html')
