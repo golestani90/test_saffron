@@ -1387,14 +1387,14 @@ jQuery.support = (function() {
 		// (WebKit defaults to false instead of true, IE too, if it's in an optgroup)
 		optSelected: opt.selected,
 
-		// Test setAttribute on camelCase class. If it news, we need attrFixes when doing get/setAttribute (ie6/7)
+		// Test setAttribute on camelCase class. If it works, we need attrFixes when doing get/setAttribute (ie6/7)
 		getSetAttribute: div.className !== "t",
 
 		// Tests for enctype support on a form(#6743)
 		enctype: !!document.createElement("form").enctype,
 
 		// Makes sure cloning an html5 element does not cause problems
-		// Where outerHTML is undefined, this still news
+		// Where outerHTML is undefined, this still works
 		html5Clone: document.createElement("nav").cloneNode( true ).outerHTML !== "<:nav></:nav>",
 
 		// Will be defined later
@@ -1545,7 +1545,7 @@ jQuery.support = (function() {
 		// (IE <= 8 fail this test)
 		support.reliableHiddenOffsets = isSupported && ( tds[ 0 ].offsetHeight === 0 );
 
-		// Figure out if the W3C box model news as expected
+		// Figure out if the W3C box model works as expected
 		div.innerHTML = "";
 		div.style.width = div.style.paddingLeft = "1px";
 		jQuery.boxModel = support.boxModel = div.offsetWidth === 2;
@@ -2751,7 +2751,7 @@ if ( !jQuery.support.optSelected ) {
 			if ( parent ) {
 				parent.selectedIndex;
 
-				// Make sure that it also news with optgroups, see #5701
+				// Make sure that it also works with optgroups, see #5701
 				if ( parent.parentNode ) {
 					parent.parentNode.selectedIndex;
 				}
@@ -5032,7 +5032,7 @@ if ( document.querySelectorAll ) {
 						return makeArray( context.querySelectorAll(query), extra );
 					} catch(qsaError) {}
 
-				// qSA news strangely on Element-rooted queries
+				// qSA works strangely on Element-rooted queries
 				// We can work around this by specifying an extra ID on the root
 				// and working up from there (Thanks to Andrew Dupont for the technique)
 				// IE 8 doesn't work on object elements

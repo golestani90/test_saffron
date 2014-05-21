@@ -1,7 +1,598 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a175cf1-98e6-4ce1-85d3-6905d9c32452" name="Default" comment="" />
+    <list default="true" id="6a175cf1-98e6-4ce1-85d3-6905d9c32452" name="Default" comment="">
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\animate.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\custom-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\font_fa.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\about-us-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\blog-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\coming-soon-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\error-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\image-crop-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\inbox-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\invoice-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\lock-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\login-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\login-soft-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\news-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\portfolio-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\pricing-tables-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\profile-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\promo-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\search-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\tasks-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\pages\timeline-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\plugins-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\print-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\style-metronic-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\style-responsive-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\style-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css\themes\default-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BBadr.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BBadr.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BBadr.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BBaran.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BBaran.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BBaran.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BBardiya.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BBardiya.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BBardiya.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BCompset.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BCompset.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BCompset.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BDavat.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BDavat.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BDavat.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BElham.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BElham.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BElham.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BEsfehanBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BEsfehanBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BEsfehanBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BFantezy.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BFantezy.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BFantezy.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BFarnaz.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BFarnaz.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BFarnaz.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BFerdosi.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BFerdosi.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BFerdosi.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BHamid.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BHamid.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BHamid.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BHelal.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BHelal.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BHelal.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BHoma.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BHoma.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BHoma.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BJadidBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BJadidBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BJadidBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BJalal.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BJalal.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BJalal.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BKoodakBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BKoodakBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BKoodakBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BKourosh.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BKourosh.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BKourosh.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BLotus.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BLotus.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BLotus.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMahsa.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMahsa.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMahsa.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMehrBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMehrBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMehrBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMitra.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMitra.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMitra.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMorvarid.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMorvarid.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BMorvarid.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BNarm.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BNarm.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BNarm.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BNasimBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BNasimBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BNasimBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BNazanin.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BNazanin.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BNazanin.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BRoya.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BRoya.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BRoya.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BSetarehBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BSetarehBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BSetarehBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BShiraz.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BShiraz.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BShiraz.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BSinaBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BSinaBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BSinaBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTabassom.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTabassom.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTabassom.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTehran.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTehran.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTehran.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTitrBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTitrBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTitrBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTitrTGEBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTitrTGEBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTitrTGEBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTraffic.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTraffic.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BTraffic.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BVahidBold.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BVahidBold.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BVahidBold.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BYagut.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BYagut.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BYagut.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BYas.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BYas.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BYas.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BYekan.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BYekan.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BYekan.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BZar.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BZar.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BZar.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BZiba.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BZiba.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\BZiba.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\font.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\k3k702ZOKiLJc3WVjuplzHhCUOGz7vYGh680lGh-uXM.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\fonts\style.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\accordion-plusminus.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\avatar.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\avatar1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\avatar1_small.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\avatar2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\avatar3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\bg-opacity.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\bg-white-lock.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\bg-white.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\bg\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\bg\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\bg\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\bg\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\blog\9.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\datatable-row-openclose.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\email\article.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\email\iphone.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\email\photo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\email\photo2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\email\social_facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\email\social_googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\email\social_linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\email\social_rss.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\email\social_twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\flags\de.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\flags\es.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\flags\fr.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\flags\ru.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\flags\us.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\gallery\image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\gallery\image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\gallery\image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\gallery\image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\gallery\image5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\gallery\item_img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\gallery\item_img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\hor-menu-search-close.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\hor-menu-search.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\icon-color-close.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\icon-color.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\icon-img-down.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\icon-img-up.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\inbox-nav-arrow-blue.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\input-spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\invoice\walmart.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\loading-spinner-grey.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\logo-big.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\menu-toggler.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\overlay-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\pages\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\pages\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\pages\earth-rtl.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\pages\img1.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\pages\img1_2.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\pages\img2.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\pages\img3.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\pages\img4.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\photo1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\photo2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-collapse-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-collapse-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-config-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-config-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-expand-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-expand-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-reload-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-reload-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-remove-icon-white.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\portlet-remove-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\profile\portfolio\logo_azteca.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\profile\portfolio\logo_conquer.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\profile\portfolio\logo_metronic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\profile\profile-img.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\profile\profile.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\remove-icon-small.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\search-icon-light.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\search-icon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\search\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\sidebar-menu-arrow-rtl.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\sidebar-menu-arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\sidebar-search-close.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\sidebar-toggler.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\aboutme.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\amazon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\behance.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\blogger.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\deviantart.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\dribbble.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\dropbox.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\evernote.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\facebook.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\flickr.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\forrst.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\foursquare.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\github.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\googleplus.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\gravatar.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\instagram.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\jolicloud.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\klout.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\last-fm.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\linkedin.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\myspace.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\picasa.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\pintrest.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\quora.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\reddit.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\rss.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\skype.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\spotify.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\stumbleupon.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\tumblr.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\twitter.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\vimeo.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\vk.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\wordpress.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\xing.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\yahoo.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\social\youtube.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\syncfusion-icons-white.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\syncfusion-icons.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\works\img1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\works\img2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\works\img3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\works\img4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\works\img5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\img\works\img6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\backstretch\jquery.backstretch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootbox\bootbox.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-colorpicker\css\colorpicker.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-colorpicker\img\alpha.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-colorpicker\img\hue.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-colorpicker\img\saturation.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-colorpicker\js\bootstrap-colorpicker.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-datepaginator\bootstrap-datepaginator.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-datepicker\css\datepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-datepicker\js\bootstrap-datepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-daterangepicker\daterangepicker-bs3.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-daterangepicker\daterangepicker.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-daterangepicker\moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-datetimepicker\css\datetimepicker.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-datetimepicker\js\bootstrap-datetimepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-editable\bootstrap-editable\css\bootstrap-editable-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-editable\bootstrap-editable\img\clear.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-editable\bootstrap-editable\img\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-editable\bootstrap-editable\js\bootstrap-editable.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-editable\inputs-ext\address\address.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-editable\inputs-ext\address\address.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-editable\inputs-ext\wysihtml5\wysihtml5.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-fileinput\bootstrap-fileinput.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-fileinput\bootstrap-fileinput.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-hover-dropdown\bootstrap-hover-dropdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-markdown\css\bootstrap-markdown.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-markdown\js\bootstrap-markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-markdown\lib\markdown.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-maxlength\bootstrap-maxlength.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-modal\css\bootstrap-modal-bs3patch.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-modal\css\bootstrap-modal.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-modal\js\bootstrap-modal.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-modal\js\bootstrap-modalmanager.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-select\bootstrap-select-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-select\bootstrap-select.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-sessiontimeout\jquery.sessiontimeout.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-switch\css\bootstrap-switch-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-switch\js\bootstrap-switch-rtl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-timepicker\css\bootstrap-timepicker.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-timepicker\js\bootstrap-timepicker.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-toastr\toastr-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-toastr\toastr.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-touchspin\bootstrap.touchspin.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-wizard\jquery.bootstrap.wizard.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-wysihtml5\bootstrap-wysihtml5-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-wysihtml5\bootstrap-wysihtml5.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-wysihtml5\wysihtml5-0.3.0.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap-wysihtml5\wysiwyg-color.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap\css\bootstrap-rtl.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap\fonts\glyphicons-halflings-regular.eot@" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap\fonts\glyphicons-halflings-regular.svg.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\bootstrap\js\bootstrap2-typeahead.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\ckeditor\ckeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\clockface\css\clockface.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\clockface\js\clockface.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\countdown\jquery.countdown.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\data-tables\dt_bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\data-tables\dt_bootstrap_rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\data-tables\images\sort_asc.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\data-tables\images\sort_asc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\data-tables\images\sort_both.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\data-tables\images\sort_desc.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\data-tables\images\sort_desc_disabled.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\data-tables\jquery.datatables.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\data-tables\jquery.datatables.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\dropzone\css\dropzone-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\dropzone\dropzone.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\dropzone\images\spritemap.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\dropzone\images\spritemap_402x.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\fancybox\source\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\fancybox\source\fancybox_loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\fancybox\source\fancybox_overlay.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\fancybox\source\fancybox_sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\fancybox\source\jquery.fancybox.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\fancybox\source\jquery.fancybox.pack.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\flot\jquery.flot.categories.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\flot\jquery.flot.categories.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\flot\jquery.flot.crosshair.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\flot\jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\flot\jquery.flot.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\flot\jquery.flot.pie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\flot\jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\flot\jquery.flot.resize.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\flot\jquery.flot.stack.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\font-awesome\css\font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\font-awesome\css\m663 1125q-11 -1 -15.5 -10.5t-8.5 -9.5q-5 -1 -5 5q0 12 19 15h10zm750 1111q-4 -1 -11.5 6.5t-17.5 4.5q03f7dc5a5a.htm" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\font-awesome\fonts\fontawesome-webfont.eot@" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\font-awesome\fonts\fontawesome-webfont.eot@v=4.0.3" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\font-awesome\fonts\fontawesome-webfont.svg@v=4.0.3.xml" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\font-awesome\fonts\fontawesome-webfont.ttf@v=4.0.3" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\font-awesome\fonts\fontawesome-webfont.woff@v=4.0.3" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\fuelux\js\spinner.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\fullcalendar\fullcalendar\fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\fullcalendar\fullcalendar\fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\gmaps\gmaps.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\gritter\css\jquery.gritter-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\gritter\images\gritter-light.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\gritter\images\gritter.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\gritter\images\ie-spacer.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\gritter\js\jquery.gritter.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\holder.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\ion.rangeslider\css\ion.rangeslider.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\ion.rangeslider\css\ion.rangeslider.metronic.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\ion.rangeslider\js\ion-rangeslider\ion.rangeslider.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\css\jcrop.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\css\jquery.jcrop.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\demos\demo_files\image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\demos\demo_files\image2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\demos\demo_files\image3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\demos\demo_files\image4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\demos\demo_files\image5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\demos\demo_files\pool.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\demos\demo_files\sago.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\demos\demo_files\sagomod.jpg" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\js\jquery.color.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jcrop\js\jquery.jcrop.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-1.10.2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-bootpag\jquery.bootpag.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-easy-pie-chart\jquery.easy-pie-chart.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-easy-pie-chart\jquery.easy-pie-chart.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\blueimp-gallery\blueimp-gallery.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\blueimp-gallery\jquery.blueimp-gallery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\css\jquery.fileupload-ui.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\css\jquery.fileupload.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\img\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\img\progressbar.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\cors\jquery.xdr-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\jquery.fileupload-audio.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\jquery.fileupload-image.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\jquery.fileupload-process.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\jquery.fileupload-ui.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\jquery.fileupload-validate.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\jquery.fileupload-video.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\jquery.fileupload.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\jquery.iframe-transport.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\vendor\canvas-to-blob.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\vendor\jquery.ui.widget.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\vendor\load-image.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-file-upload\js\vendor\tmpl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-idle-timeout\jquery.idletimeout.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-idle-timeout\jquery.idletimer.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-inputmask\jquery.inputmask.bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-knob\js\jquery.knob-rtl.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-migrate-1.2.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-mixitup\jquery.mixitup.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-multi-select\css\multi-select-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-multi-select\img\switch.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-multi-select\js\jquery.multi-select.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-nestable\jquery.nestable.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-nestable\jquery.nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-notific8\jquery.notific8.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-notific8\jquery.notific8.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-slimscroll\jquery.slimscroll.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-tags-input\jquery.tagsinput-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-tags-input\jquery.tagsinput.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui-touch-punch\jquery.ui.touch-punch.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-bg_diagonals-thick_18_b81900_5f40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-bg_diagonals-thick_20_666666_5f40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-bg_flat_10_000000_5f40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-bg_glass_100_f6f6f6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-bg_glass_100_fdf5ce_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-bg_gloss-wave_35_f6a828_500x100.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-bg_highlight-soft_100_eeeeee_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-bg_highlight-soft_75_ffe45c_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-icons_222222_5f256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-icons_228ef1_5f256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-icons_ef8c08_5f256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-icons_ffd27a_5f256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\images\ui-icons_ffffff_5f256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\jquery-ui-1.10.3.custom.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\jquery-ui-1.10.3.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-ui\jquery.ui.slider-rtl.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-validation\dist\additional-methods.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery-validation\dist\jquery.validate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery.blockui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery.cokie.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery.input-ip-address-control-1.0.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery.mockjax.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery.pulsate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery.pwstrength.bootstrap\src\pwstrength.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jquery.sparkline.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jqvmap\jqvmap\data\jquery.vmap.sampledata.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jqvmap\jqvmap\jquery.vmap.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jqvmap\jqvmap\jqvmap.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jqvmap\jqvmap\maps\jquery.vmap.europe.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jqvmap\jqvmap\maps\jquery.vmap.germany.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jqvmap\jqvmap\maps\jquery.vmap.russia.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jqvmap\jqvmap\maps\jquery.vmap.usa.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jqvmap\jqvmap\maps\jquery.vmap.world.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jstree\dist\jstree.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jstree\dist\themes\default\32px.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jstree\dist\themes\default\40px.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jstree\dist\themes\default\style.min.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\jstree\dist\themes\default\throbber.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\moment.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\nouislider\jquery.nouislider-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\nouislider\jquery.nouislider.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\pace\pace.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\pace\themes\pace-theme-barber-shop-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\pace\themes\pace-theme-big-counter-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\pace\themes\pace-theme-flash-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\pace\themes\pace-theme-minimal-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\plupload\examples\upload.php.htm" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\plupload\js\moxie.swf" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\plupload\js\moxie.xap" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\plupload\js\plupload.full.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\respond.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\select2\select2-metronic-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\select2\select2-rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\select2\select2-spinner.gif" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\select2\select2.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\select2\select2.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\select2\select2x2.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\typeahead\handlebars.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\typeahead\typeahead.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\typeahead\typeahead.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\uniform\css\uniform.default.css" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\uniform\images\bg-input-focus.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\uniform\images\bg-input.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\uniform\images\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\plugins\uniform\jquery.uniform.min.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\core\app.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\core\datatable.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\charts.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\coming-soon.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\components-dropdowns.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\components-editors.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\components-form-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\components-ion-sliders.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\components-jqueryui-sliders.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\components-knob-dials.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\components-nouisliders.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\components-pickers.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\contact-us.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ecommerce-index.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ecommerce-orders-view.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ecommerce-orders.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ecommerce-products-edit.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ecommerce-products.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\form-dropzone.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\form-editable.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\form-fileupload.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\form-image-crop.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\form-samples.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\form-validation.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\form-wizard.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\inbox.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\index.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\lock.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\login-soft.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\login.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\maps-google.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\maps-vector.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\portfolio.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\portlet-draggable.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\search.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\table-advanced.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\table-ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\table-editable.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\table-managed.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\tasks.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-alert-dialog-api.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-blockui.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-datepaginator.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-extended-modals.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-general.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-idletimeout.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-nestable.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-notific8.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-toastr.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\static\static_admin\scripts\custom\ui-tree.js" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\templates\news\admin_news_hand.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\templates\news\admin_news_rss.html" afterPath="" />
+      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\myapp\templates\parent\admin_parent.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/parent/base_parent.html" afterPath="$PROJECT_DIR$/myapp/templates/parent/base_parent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/news/best_news.html" afterPath="$PROJECT_DIR$/myapp/templates/news/best_news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/static/plugins/bootstrap/css/bootstrap-rtl.min.css" afterPath="$PROJECT_DIR$/myapp/static/plugins/bootstrap/css/bootstrap-rtl.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/static/css/custom-rtl.css" afterPath="$PROJECT_DIR$/myapp/static/css/custom-rtl.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/static/plugins/revolution_slider/documentation/assets/js/jquery.js" afterPath="$PROJECT_DIR$/myapp/static/plugins/revolution_slider/documentation/assets/js/jquery.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/news/new_news.html" afterPath="$PROJECT_DIR$/myapp/templates/news/new_news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/saffron_test.iml" afterPath="$PROJECT_DIR$/.idea/saffron_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saffron_test/urls.py" afterPath="$PROJECT_DIR$/saffron_test/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/views.py" afterPath="$PROJECT_DIR$/myapp/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="saffron_test.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -11,6 +602,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/saffron_test$.coverage" NAME="تمرین Coverage Results" MODIFIED="1397577980081" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Downloads" />
+  </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
@@ -28,46 +622,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/saffron_test/urls.py">
+      <file leaf-file-name="index_not_register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/templates/index/index_not_register.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="82" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://K:/saffron/template/Theme/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="25" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="4607">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_parent.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/templates/parent/base_parent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="0" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="5763">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="612">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="admin_parent.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/templates/parent/admin_parent.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="38" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="7786">
+            <state line="80" column="28" selection-start="2535" selection-end="2535" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="3502">
               <folding />
             </state>
           </provider>
@@ -76,27 +634,34 @@
       <file leaf-file-name="best_news.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/templates/news/best_news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="21" selection-start="4593" selection-end="4593" vertical-scroll-proportion="-0.0" vertical-offset="1326" max-vertical-offset="6919">
+            <state line="5" column="21" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0" vertical-offset="85" max-vertical-offset="6936">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_news_hand.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/myapp/templates/news/admin_news_hand.html">
+      <file leaf-file-name="base_parent.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/templates/parent/base_parent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="4" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.46174142" vertical-offset="335" max-vertical-offset="714">
-              <folding>
-                <element signature="tag#ul#0;tag#div#0;tag#div#1" expanded="false" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5406">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin_news_rss.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/templates/news/admin_news_rss.html">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/saffron_test/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="419" column="0" selection-start="18444" selection-end="18444" vertical-scroll-proportion="0.0" vertical-offset="7123" max-vertical-offset="16201">
+            <state line="82" column="23" selection-start="2002" selection-end="2002" vertical-scroll-proportion="1.3076923" vertical-offset="884" max-vertical-offset="1513">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/myapp/models.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="153">
               <folding />
             </state>
           </provider>
@@ -109,32 +674,43 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/myapp/parent/base_parent.html" />
-        <option value="K:/saffron/saffron_admin/www.keenthemes.com/preview/metronic_admin/assets/css/style.css" />
-        <option value="$PROJECT_DIR$/myapp/static/static_admin/css/style.css" />
-        <option value="$PROJECT_DIR$/myapp/static/css/custom-rtl.css" />
-        <option value="$PROJECT_DIR$/myapp/static/plugins/bootstrap/css/bootstrap-rtl.min.css" />
-        <option value="$PROJECT_DIR$/myapp/templates/news/new_news.html" />
-        <option value="$PROJECT_DIR$/myapp/static/static_admin/css/style-rtl.css" />
+        <option value="$PROJECT_DIR$/myapp/templates/news/admin_news_rss_prt.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/news/admin_Edit_rss.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/parent/admin_parent_rss.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/news/admin_news_rss.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/news/admin_news_hand.html" />
+        <option value="$PROJECT_DIR$/myapp/static/scripts/app.js" />
+        <option value="$PROJECT_DIR$/myapp/static/plugins/back-to-top.js" />
+        <option value="$PROJECT_DIR$/myapp/templates/index/index_notregister.html" />
         <option value="$PROJECT_DIR$/saffron_test/urls.py" />
-        <option value="$PROJECT_DIR$/myapp/templates/news/admin_nwes_hand.html" />
-        <option value="$PROJECT_DIR$/myapp/templates/parent/admin_parent.html" />
+        <option value="$PROJECT_DIR$/myapp/views.py" />
+        <option value="K:/saffron/admin_rtl/www.keenthemes.com/preview/metronic_admin_rtl/index.html" />
+        <option value="$PROJECT_DIR$/myapp/static/css/style-rtl.css" />
+        <option value="$PROJECT_DIR$/myapp/templates/index/index_not_register.html" />
+        <option value="$PROJECT_DIR$/myapp/static/scripts/contact-us.js" />
         <option value="$PROJECT_DIR$/myapp/templates/parent/base_parent.html" />
         <option value="$PROJECT_DIR$/myapp/templates/news/best_news.html" />
-        <option value="$PROJECT_DIR$/myapp/templates/news/admin_news_rss.html" />
-        <option value="$PROJECT_DIR$/myapp/views.py" />
-        <option value="$PROJECT_DIR$/myapp/templates/news/admin_news_hand.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1363" />
-    <option name="height" value="728" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -160,6 +736,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -188,7 +765,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
+              <option name="myItemId" value="saffron_test" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -203,63 +780,39 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="myapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saffron_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saffron_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myapp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="news" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saffron_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="saffron_test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="132" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="160" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="settings.github" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../SampleProject - Copy" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="154" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="D:/Network/SockPro" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="162" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="829" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="836" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="154" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="153" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
     <property name="FullScreen" value="false" />
-    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
@@ -269,6 +822,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\PycharmProjects\saffron_test\myapp\static" />
       <recent name="G:\PycharmProjects\saffron_test\myapp\static\static_admin" />
       <recent name="G:\PycharmProjects\saffron_test\myapp\static\static_admin\css" />
     </key>
@@ -364,27 +918,7 @@
       <option name="PARAMETERS" value="" />
       <method />
     </configuration>
-    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="saffron_test" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <option name="port" value="8000" />
-      <option name="host" value="" />
-      <option name="additionalOptions" value="" />
-      <option name="browserUrl" value="" />
-      <option name="runTestServer" value="false" />
-      <option name="runNoReload" value="false" />
-      <option name="useCustomRunCommand" value="false" />
-      <option name="customRunCommand" value="" />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Unittests">
@@ -410,7 +944,27 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="saffron_test" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
       <method />
     </configuration>
     <configuration default="true" type="tests" factoryName="Doctests">
@@ -460,7 +1014,7 @@
         <env name="PYTHONUNBUFFERED" value="1" />
         <env name="DJANGO_SETTINGS_MODULE" value="saffron_test.settings" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:/Python27/python.exe" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -468,7 +1022,7 @@
       <module name="saffron_test" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
-      <option name="host" value="" />
+      <option name="host" value="127.0.0.1" />
       <option name="additionalOptions" value="" />
       <option name="browserUrl" value="" />
       <option name="runTestServer" value="false" />
@@ -479,8 +1033,28 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="1">
+    <configuration default="false" name="تمرین" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Downloads" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="saffron_test" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Downloads/تمرین.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="Django server.saffron_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.تمرین" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -510,48 +1084,29 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1363" height="728" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22982322" sideWeight="0.7915937" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1621212" sideWeight="0.70628184" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2084063" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29371816" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32798573" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32879046" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32864675" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20906995" sideWeight="0.94957983" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.05042017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -565,101 +1120,95 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myapp/static/css/style-rtl.css">
+    <entry file="file://$PROJECT_DIR$/myapp/templates/parent/base_parent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="42432" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/static/css/font_fa.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4913" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/static/css/custom-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/static/plugins/bootstrap/css/bootstrap-rtl.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5864" column="41" selection-start="104486" selection-end="104486" vertical-scroll-proportion="0.0" vertical-offset="99432" max-vertical-offset="120768" />
-      </provider>
-    </entry>
-    <entry file="file://K:/saffron/template/Theme/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="25" selection-start="1887" selection-end="1887" vertical-scroll-proportion="0.0" vertical-offset="212" max-vertical-offset="4607">
+        <state line="126" column="16" selection-start="6034" selection-end="6041" vertical-scroll-proportion="0.0" vertical-offset="1987" max-vertical-offset="5763">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://K:/saffron/saffron_admin/www.keenthemes.com/preview/metronic_admin/assets/css/style.css">
+    <entry file="file://K:/saffron/template/template_content_rtl/page_home_fixed_header.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="665" column="0" selection-start="10700" selection-end="10700" vertical-scroll-proportion="0.0" vertical-offset="11135" max-vertical-offset="74137" />
+        <state line="723" column="14" selection-start="22401" selection-end="43115" vertical-scroll-proportion="0.0" vertical-offset="12291" max-vertical-offset="15096" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/static/static_admin/css/font_fa.css">
+    <entry file="file://$PROJECT_DIR$/myapp/static/plugins/gmaps/lib/gmaps.core.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4913" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7803" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/templates/news/new_news.html">
+    <entry file="file://K:/saffron/admin_rtl/www.keenthemes.com/preview/metronic_admin_rtl/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="26" selection-start="44" selection-end="44" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="6715" />
+        <state line="1579" column="38" selection-start="40605" selection-end="40605" vertical-scroll-proportion="0.0" vertical-offset="26843" max-vertical-offset="64532" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/static/static_admin/css/style-rtl.css">
+    <entry file="file://$PROJECT_DIR$/myapp/static/css/style-rtl.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="835" column="19" selection-start="13942" selection-end="13942" vertical-scroll-proportion="-7.750605" vertical-offset="17396" max-vertical-offset="74137" />
+        <state line="2490" column="1" selection-start="43764" selection-end="43764" vertical-scroll-proportion="0.0" vertical-offset="41892" max-vertical-offset="42432" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/saffron_test/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="82" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="544">
-          <folding />
-        </state>
+        <state line="14" column="29" selection-start="512" selection-end="512" vertical-scroll-proportion="0.37777779" vertical-offset="0" max-vertical-offset="540" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/scripts/contact-us.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="17" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="544" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/plugins/jquery-1.10.2.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/plugins/animated-header/cbpAnimatedHeader.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.0" vertical-offset="105" max-vertical-offset="918" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/static/plugins/animated-header/classie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="544" selection-end="544" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
+        <state line="17" column="40" selection-start="558" selection-end="558" vertical-scroll-proportion="-6.0" vertical-offset="139" max-vertical-offset="527" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/templates/parent/admin_parent.html">
+    <entry file="file://$PROJECT_DIR$/myapp/templates/index/index_not_register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="38" selection-start="573" selection-end="573" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="7786">
+        <state line="80" column="28" selection-start="2535" selection-end="2535" vertical-scroll-proportion="-0.0" vertical-offset="1360" max-vertical-offset="3468">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/templates/parent/base_parent.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.0" vertical-offset="561" max-vertical-offset="5763">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="5406">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/templates/news/admin_news_rss.html">
+    <entry file="file://$PROJECT_DIR$/myapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="419" column="0" selection-start="18444" selection-end="18444" vertical-scroll-proportion="0.0" vertical-offset="7123" max-vertical-offset="16201">
+        <state line="3" column="0" selection-start="57" selection-end="57" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="153">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/templates/news/best_news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="21" selection-start="4593" selection-end="4593" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="6919">
+        <state line="5" column="21" selection-start="141" selection-end="141" vertical-scroll-proportion="-0.0" vertical-offset="85" max-vertical-offset="6936">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/templates/news/admin_news_hand.html">
+    <entry file="file://$PROJECT_DIR$/saffron_test/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="4" selection-start="1192" selection-end="1192" vertical-scroll-proportion="0.46174142" vertical-offset="335" max-vertical-offset="714">
-          <folding>
-            <element signature="tag#ul#0;tag#div#0;tag#div#1" expanded="false" />
-          </folding>
+        <state line="82" column="23" selection-start="2002" selection-end="2002" vertical-scroll-proportion="1.3076923" vertical-offset="884" max-vertical-offset="1513">
+          <folding />
         </state>
       </provider>
     </entry>

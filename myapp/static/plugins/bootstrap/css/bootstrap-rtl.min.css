@@ -5795,8 +5795,8 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-default > .panel-heading {
   color: #333333;
-  background-color:rgba(39, 144, 226, 0.56);
-  border-color: rgba(39, 144, 226, 0.56);
+  background-color: #f5f5f5;
+  border-color: #dddddd;
 }
 
 .panel-default > .panel-heading + .panel-collapse .panel-body {
@@ -5838,9 +5838,9 @@ a.list-group-item.active:focus .list-group-item-text {
 }
 
 .panel-success > .panel-heading {
-  color:#000000;
-  background-color: rgba(39, 144, 226, 0.56);
-  border-color: rgba(39, 144, 226, 0.56);
+  color: #468847;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
 }
 
 .panel-success > .panel-heading + .panel-collapse .panel-body {
@@ -5861,8 +5861,8 @@ a.list-group-item.active:focus .list-group-item-text {
 
 .panel-warning > .panel-heading {
   color: #c09853;
-  background-color: rgba(39, 144, 226, 0.56);
-  border-color: rgba(39, 144, 226, 0.56);
+  background-color: #fcf8e3;
+  border-color: #faebcc;
 }
 
 .panel-warning > .panel-heading + .panel-collapse .panel-body {

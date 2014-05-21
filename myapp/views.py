@@ -12,20 +12,14 @@ def best_news(request):
 def new_news(request):
 
     return render(request, 'news/new_news.html')
-
-
-
-
-#ADMIN
-"""=================================================================================================================================="""
-def admin_parent(request):
-
-    return render(request, 'parent/admin_parent.html')
 """========================================================="""
-def admin_news_rss(request):
+def index_not_register(request):
 
-    return render(request, 'news/admin_news_rss.html')
-"""========================================================="""
-def admin_news_hand(request):
+    return render(request, 'index/index_not_register.html')
 
-    return render(request,'news/admin_news_hand.html')
+
+
+
+
+
+

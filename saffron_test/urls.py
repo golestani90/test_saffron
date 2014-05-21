@@ -10,16 +10,14 @@ urlpatterns = patterns('',
 
     #url(r'^admin/', include(admin.site.urls)),
     url(r'^$', 'myapp.views.base_parent', name='parent'),
-    url(r'^best_news$', 'myapp.views.best_news', name='best'),
-    url(r'^new_news$', 'myapp.views.new_news', name='new'),
+    url(r'^best/news$', 'myapp.views.best_news', name='best'),
+    url(r'^new/news$', 'myapp.views.new_news', name='new'),
+    url(r'^index/not_register$', 'myapp.views.index_not_register', name='not_register'),
 
 
 
-    #"""======================================================================================================================="""
-    #admin
-    url(r'^admin_parent$', 'myapp.views.admin_parent', name='admin'),
-    url(r'^admin_news_rss$', 'myapp.views.admin_news_rss', name='admin_news_rss'),
-    url(r'^admin_news_hand$', 'myapp.views.admin_news_hand', name='admin_news_hand'),
+
+
 
 
 
