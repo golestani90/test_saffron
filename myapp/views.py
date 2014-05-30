@@ -16,6 +16,15 @@ def new_news(request):
 def index_not_register(request):
 
     return render(request, 'index/index_not_register.html')
+"""========================================================="""
+def list_pro(request):
+
+    return render(request, 'shop/list_pro.html')
+
+"""========================================================="""
+def plus_news(request):
+    if request.method == 'GET':
+        num = request.GET('plus')
 
 
 

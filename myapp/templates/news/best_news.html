@@ -1,4 +1,4 @@
-{% extends "parent/base_parent.html" %}
+{% extends 'parent/base_parent.html' %}
 {% load staticfiles %}
 {% block content %}
 <div class="container min-hight font">
@@ -41,7 +41,7 @@
 
 								<li><i class="fa fa-calendar"></i> 25/07/2013</li>
                                  &nbsp;&nbsp; &nbsp;&nbsp;
-								<li><a href="#"><i class="fa fa-plus"></i></a>
+								<li><a href="#"><i class="fa fa-plus" id="plus"></i></a>
                                                  &nbsp;&nbsp;
                                                  <i>7</i>
                                                  &nbsp;&nbsp;
@@ -89,7 +89,7 @@
                                   <div class="panel-body">
                                      <div class="media">
                                          <a href="#" class="pull-left">
-                                             <img src="static/img/people/amirmahdi2.jpg" alt="" class="avatar img-responsive">
+                                             <img src="{% static 'img/people/amirmahdi2.jpg' %}" alt="" class="avatar img-responsive">
                                          </a>
                                          <div class="media-body">
                                              <ul>
@@ -107,7 +107,7 @@
                                      </div>
                                       <div class="media">
                                           <a href="#" class="pull-left">
-                                              <img src="static/img/people/images1.jpg" alt="" class="media-object">
+                                              <img src="{% static 'img/people/images1.jpg' %}" alt="" class="media-object">
                                           </a>
                                           <div class="media-body">
                                                <ul>
@@ -146,10 +146,10 @@
                  <hr class="blog-post-sep">
                     <div class="row">
                         <div class="col-md-4 col-sm-4">
-                            <img src="static/img/news/5.jpg" alt="" class="img-responsive">
+                            <img src="{% static 'img/news/5.jpg' %}" alt="" class="img-responsive">
                         </div>
                         <div class="col-md-8 col-sm-8">
-							<h2><a href="blog_item.html">ارتقای کیفیت زعفران نیازمند کمک بخش خصوصی </a></h2>
+							<h2><a href="#">ارتقای کیفیت زعفران نیازمند کمک بخش خصوصی </a></h2>
 							<ul class="blog-info">
 
 								<li><i class="fa fa-calendar"></i> 25/07/2013</li>
@@ -399,4 +399,21 @@
     </div>
 </div>
     </div>
+{% endblock %}
+{% block js %}
+    <script>
+    $(document).ready(function(){
+        $('#plus').click(function(){
+            var num = (this).val();
+            $.get('plus/news',{plus : num} , function(data){
+                alert(data);
+            });
+
+        });
+    });
+    </script>
+
+
+
+
 {% endblock %}

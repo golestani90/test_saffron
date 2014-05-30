@@ -23,7 +23,7 @@ body {
   direction: rtl;
   margin: 0 !important;
   padding: 0 !important;
-  font-family: 'Open Sans' !important;
+  font-family:"Byekan",BBaran;
   overflow-x: hidden;
 }
 
@@ -54,7 +54,7 @@ General typography
 ***/
 h1, h2, h3, h4, h5, h6 {
   font-weight: 300;
-  font-family: inherit;
+  font-family: "Byekan",BBaran;
 }
 
 h1.block, h2.block, h3.block, h4.block, h5.block, h6.block {
@@ -133,7 +133,7 @@ General More Link
 a.more {
   font-size: 13px;
   font-weight: 400 !important;
-  font-family: 'Open Sans' !important;
+  font-family: "Byekan",BBaran;
 }
 
 a.more i {
@@ -751,7 +751,7 @@ Slider
 	margin-bottom: 10px;
 }
 .slide_title_white {
-	font-family: 'Open Sans';
+	font-family:"Byekan",BBaran;
 	font-weight: 300;
 	color:#fff;
 	text-align:center;
@@ -766,7 +766,7 @@ Slider
 .slide_subtitle_white {
 	border-top:1px solid #fff !important;
 	border-bottom:1px solid #fff !important;
-	font-family: 'Open Sans';
+	font-family: "Byekan",BBaran;
 	font-weight: 300;
 	padding: 5px 10px;
 	color:#fff;
@@ -788,7 +788,7 @@ Slider
 }
 
 .slide_title {
-	font-family: 'Open Sans';
+	font-family:"Byekan",BBaran;
 	font-weight: 300;
 	color:#3f5862;
 	text-transform: uppercase;
@@ -796,7 +796,7 @@ Slider
 }
 
 .slide_subtitle {
-	font-family: 'Open Sans';
+	font-family: "Byekan",BBaran;
 	font-weight: 400;
 	background-color: #0088cc;
 	padding: 5px;
@@ -806,7 +806,7 @@ Slider
 }
 
 .slide_list_item {
-	font-family: 'Open Sans';
+	font-family: "Byekan",BBaran;
 	font-weight: 400;
 	background-color: #0088cc;
 	padding: 5px;
