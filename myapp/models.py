@@ -27,6 +27,11 @@ class News(models.Model):
 #  Num-view_news numeric(3,0),
 #);
 #=========================================================================
+class Product(models.Model):
+    Name_pro = models.CharField(max_length=50)
+    State_pro = models.CharField(max_length=50)
+    Price_pro = models.IntegerField()
+#=========================================================================
 
 
 class News_pic(models.Model):

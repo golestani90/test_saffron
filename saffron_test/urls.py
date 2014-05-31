@@ -1,5 +1,4 @@
 from django.conf.urls import patterns, include, url
-
 from django.contrib import admin
 admin.autodiscover()
 
@@ -15,6 +14,7 @@ urlpatterns = patterns('',
     url(r'^index/not_register$', 'myapp.views.index_not_register', name='not_register'),
     url(r'^plus/news$', 'myapp.views.plus_news', name='plus'),
     url(r'^list/pro$', 'myapp.views.list_pro', name='list_pro'),
+    url(r'^buy/pro$', 'myapp.views.buy_pro', name='buy_pro'),
 
 
 

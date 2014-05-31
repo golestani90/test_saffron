@@ -5,13 +5,16 @@
 {% endblock %}
 {% block content %}
 
-<div class="container min-hight">
+<div class="container">
 
-    <div class="row margin-bottom-40 ">
-				<!-- BEGIN INLINE NOTIFICATIONS PORTLET-->
-				<div class="col-md-3">
+    <div class="row ">
+     <form action="/buy/pro" method="post">
+        {% for i in list_pro %}
+
+            {% csrf_token %}
+        <div class="col-md-3 pull-right" style="float: right">
 					<div class="pricing-table2">
-						<h3> محصول شماره یک </h3>
+						<h3>  {{ i.Name_pro }} </h3>
 						<div class="desc">
 							این محصول مربوط به فلان نمایندگی است.
 						</div>
@@ -19,118 +22,50 @@
 							<div class="price">
 
 								<div class="amount ">
-									25000
+									{{ i.Price_pro }}
 								</div>
                                 <div class="currency ">
 
 								تومان
 								</div>
 							</div>
-							<a href="#" class="btn default">
+                            <a class="btn">
 							<i class="glyphicon glyphicon-shopping-cart"></i>
-							</a>
+                                <input type="submit" value="خرید" class="btn-default">
+
+                            </a>
+
 						</div>
 
 						<ul>
-							<li><i class="icon-angle-right"></i >قیمت هر مثقال :   <input type="text" class="input-xsmall"></li>
-                            <li><i class="icon-angle-right"></i> قیمت هر گرم : &nbsp;&nbsp; <input type="text" class="input-xsmall"></li>
+							<li><i class="icon-angle-right"></i >قیمت هر مثقال :   <input type="text"  name="price1" class="input-xsmall" value="{{ i.Price_pro }}"></li>
+{#                            {% with  i.Price_pro =  i.Price_pro /4.7 %}#}
+                            <li><i class="icon-angle-right"></i> قیمت هر گرم : &nbsp;&nbsp; <input  type="text" value="{{ i.Price_pro }}" class="input-xsmall"></li>
+{#                            {% endwith %}#}
 							<li><i class="icon-angle-right"></i> قیمت هر کیلو : &nbsp;&nbsp;<input type="text" class="input-xsmall"></li>
-							<li><i class="icon-angle-right"></i> سطح کیفیت : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" class="input-xsmall"></li>
+							<li><i class="icon-angle-right"></i> سطح کیفیت : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" class="input-xsmall" value="{{ i.State_pro }}"></li>
                              <li><img src="{% static 'img/news/1.jpg' %}" class="img-responsive"></li>
+                            <li>	<p> میزان خرید <input class="input-xsmall" name="much" type="number">
+                                    براساس <select name="typ">
+                                        <option></option>
+                                        <option value="مثقال">مثقال</option>
+                                        <option value="گرم">گرم</option>
+                                        <option value="کیلو">کیلو</option>
+                                    </select>
+                                </p></li>
 
 						</ul>
-
-
-
 					</div>
+                    <hr>
 				</div>
-				<div class="spance10 visible-phone"></div>
-        	<div class="col-md-3">
-					<div class="pricing-table2">
-						<h3> محصول شماره یک </h3>
-						<div class="desc">
-							این محصول مربوط به فلان نمایندگی است.
-						</div>
-						<div class="rate">
-							<div class="price">
 
-								<div class="amount ">
-									25000
-								</div>
-                                <div class="currency ">
-
-								تومان
-								</div>
-							</div>
-							<a href="#" class="btn default">
-							<i class="glyphicon glyphicon-shopping-cart"></i>
-							</a>
-						</div>
-
-						<ul>
-							<li><i class="icon-angle-right"></i >قیمت هر مثقال :   <input type="text" class="input-xsmall"></li>
-                            <li><i class="icon-angle-right"></i> قیمت هر گرم : &nbsp;&nbsp; <input type="text" class="input-xsmall"></li>
-							<li><i class="icon-angle-right"></i> قیمت هر کیلو : &nbsp;&nbsp;<input type="text" class="input-xsmall"></li>
-							<li><i class="icon-angle-right"></i> سطح کیفیت : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" class="input-xsmall"></li>
-                             <li><img src="{% static 'img/news/1.jpg' %}" class="img-responsive"></li>
-
-						</ul>
+		<div class="spance10 visible-phone"></div>
 
 
-
-					</div>
-				</div>
-				<div class="spance10 visible-phone"></div>
-
-
-
-        <div class=" col-md-4 col-sm-4 blog-sidebar " style="float: left">
-        <h2 >سبد خرید</h2>
-					<div class="recent-news margin-bottom-10">
-						<div class="row margin-bottom-10">
-							<div class="col-md-3">
-								<img src="{% static 'img/news/1.jpg' %}" alt="" class="img-responsive">
-							</div>
-							<div class="col-md-9 recent-news-inner">
-								<h3><a href="#">  قیمت محصول   </a>
-                                </h3>
-								<p> مقدار مورد نیاز :    <input class="input-xsmall" type="number">
-                                    براساس <select>
-                                        <option></option>
-                                        <option>مثقال</option>
-                                        <option>گرم</option>
-                                        <option>کیلو</option>
-                                    </select>
-                                </p>
-                                <p> قیمت نهایی : <input type="text">  <input type="submit" value=" حذف" class="btn btn-xs"></p>
-							</div>
-						</div>
-						<hr class="blog-post-sep">
-                        <div class="row margin-bottom-10">
-							<div class="col-md-3">
-								<img src="{% static 'img/news/1.jpg' %}" alt="" class="img-responsive">
-							</div>
-							<div class="col-md-9 recent-news-inner">
-								<h3><a href="#">  قیمت محصول   </a>
-                                </h3>
-								<p> مقدار مورد نیاز :    <input class="input-xsmall" type="number">
-                                    براساس <select>
-                                        <option></option>
-                                        <option>مثقال</option>
-                                        <option>گرم</option>
-                                        <option>کیلو</option>
-                                    </select>
-                                </p>
-                                <p> قیمت نهایی : <input type="text">  <input type="submit" value=" حذف" class="btn btn-xs"></p>
-							</div>
-						</div>
-						<hr class="blog-post-sep">
-                        <p> مبلغ کل خرید :  <input type="text"></p>
-					</div>
+        {% endfor %}
+            </form>
     </div>
 
-
-        </div>
 </div>
 
 {% endblock %}

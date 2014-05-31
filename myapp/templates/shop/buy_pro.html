@@ -1,0 +1,44 @@
+{% extends 'parent/base_parent.html' %}
+{% load staticfiles %}
+{% block content %}
+    <div class="container min-hight">
+
+          <div class="panel panel-default">
+               <div class="panel-heading">
+                  <h4 class="panel-title">
+                     <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion1" href="#accordion1_1">
+                     لیست کالاهای انتخاب شده برای خرید
+                     </a>
+                  </h4>
+               </div>
+               <div id="accordion1_1" class="panel-collapse collapse  in">
+                  <div class="panel-body">
+                   <div class="row">
+                   {#                                            <div class="col-md-1">ردیف</div>#}
+                        <div class="col-md-2"> نام محصول</div>
+                        <div class="col-md-2"> قیمت محصول</div>
+                        <div class="col-md-2"> نام نمایندگی</div>
+                        <div class="col-md-2">میزان خرید</div>
+                        <div class="col-md-2">قیمت نهایی</div>
+                        <div class="col-md-2">لغو خرید</div>
+                    </div>
+                   <div class="row">
+                   {#                                            <div class="col-md-1">ردیف</div>#}
+                       {% for i in list_pro %}
+                        <div class="col-md-2">{{ i.Name_pro }}</div>
+                        <div class="col-md-2"> {{ i.Price_pro }}</div>
+                        <div class="col-md-2"> فلان نمایندگی</div>
+                        <div class="col-md-2">{{ much }}  {{ typ }}</div>
+                        <div class="col-md-2">قیمت نهایی</div>
+                        <div class="col-md-2">لغو خرید</div>
+                       {% endfor %}
+                    </div>
+                  <a href="{% url 'myapp.views.list_pro' %}" class="btn blue m-icon">بازگشت به فروشگاه <i class="m-icon-swapright m-icon-white"></i></a>
+                  </div>
+               </div>
+          </div>
+
+
+    </div>
+
+{% endblock %}
