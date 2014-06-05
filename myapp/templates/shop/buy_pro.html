@@ -14,7 +14,7 @@
                <div id="accordion1_1" class="panel-collapse collapse  in">
                   <div class="panel-body">
                    <div class="row">
-                   {#                                            <div class="col-md-1">ردیف</div>#}
+
                         <div class="col-md-2"> نام محصول</div>
                         <div class="col-md-2"> قیمت محصول</div>
                         <div class="col-md-2"> نام نمایندگی</div>
@@ -22,18 +22,26 @@
                         <div class="col-md-2">قیمت نهایی</div>
                         <div class="col-md-2">لغو خرید</div>
                     </div>
+                  <hr>
                    <div class="row">
-                   {#                                            <div class="col-md-1">ردیف</div>#}
-                       {% for i in list_pro %}
-                        <div class="col-md-2">{{ i.Name_pro }}</div>
-                        <div class="col-md-2"> {{ i.Price_pro }}</div>
+
+
+                        <div class="col-md-2">{{ list_pro.Name_pro }}</div>
+                        <div class="col-md-2"> {{ list_pro.Price_pro }}</div>
                         <div class="col-md-2"> فلان نمایندگی</div>
                         <div class="col-md-2">{{ much }}  {{ typ }}</div>
-                        <div class="col-md-2">قیمت نهایی</div>
-                        <div class="col-md-2">لغو خرید</div>
-                       {% endfor %}
+                        <div class="col-md-2">  {{ final_price }} </div>
+{#                        <div class="col-md-2"> <a href="{% url 'myapp.views.delete_pro' i.id %}"   > حذف</a></div>#}
+
                     </div>
-                  <a href="{% url 'myapp.views.list_pro' %}" class="btn blue m-icon">بازگشت به فروشگاه <i class="m-icon-swapright m-icon-white"></i></a>
+                  <hr>
+                  <div class="row">
+                       <input type="submit"  style="margin-right: 5px;" class="btn blue m-icon " value="خرید نهایی">
+                  <p class="col-md-3">     هزینه خرید نهایی   <input type="text"> </p>
+                  <a href="{% url 'myapp.views.list_pro' %}" class="  btn blue m-icon">بازگشت به فروشگاه <i class="m-icon-swapright m-icon-white"></i></a>
+                      &nbsp;&nbsp;
+
+                      </div>
                   </div>
                </div>
           </div>

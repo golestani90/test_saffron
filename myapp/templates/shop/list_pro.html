@@ -6,9 +6,36 @@
 {% block content %}
 
 <div class="container">
+    <div class="row well">
+        <form method="post" action="/search/pro">
+                {% csrf_token %}
+        <h4 class="col-md-3">   مشاهده محصولات بر اساس :   </h4>
+
+        <div class="col-md-3"> قیمت
+
+            <div class="input-group input-medium">
+              <span class="input-group-addon">
+                <div class="checker"><span class=""><input value="0" name="Price_c" type="checkbox"></span></div>
+              </span>
+              <input type="text" name="price_s" class="form-control" placeholder="قیمت بر حسب مثقال وارد کنید.">
+            </div>
+        </div>
+
+        <div class="col-md-3"> نام
+            <div class="input-group input-medium">
+              <span class="input-group-addon">
+                <div class="checker"><span class=""><input value="0" name="name_c" type="checkbox"></span></div>
+              </span>
+              <input type="text" name="name_s" class="form-control" placeholder="نام محصول را وارد کنید.">
+            </div>
+        </div>
+        <input type="submit" class="btn blue"  value="مشاهده ">
+        </form>
+    </div>
 
     <div class="row ">
-     <form action="/buy/pro" method="post">
+
+     <form action="/buy/pro" method="post" enctype="multipart/form-data">
         {% for i in list_pro %}
 
             {% csrf_token %}
@@ -32,6 +59,7 @@
                             <a class="btn">
 							<i class="glyphicon glyphicon-shopping-cart"></i>
                                 <input type="submit" value="خرید" class="btn-default">
+                                <input type="hidden" value="{{ i.id_pro }}" name="id_pro">
 
                             </a>
 
@@ -39,10 +67,11 @@
 
 						<ul>
 							<li><i class="icon-angle-right"></i >قیمت هر مثقال :   <input type="text"  name="price1" class="input-xsmall" value="{{ i.Price_pro }}"></li>
-{#                            {% with  i.Price_pro =  i.Price_pro /4.7 %}#}
-                            <li><i class="icon-angle-right"></i> قیمت هر گرم : &nbsp;&nbsp; <input  type="text" value="{{ i.Price_pro }}" class="input-xsmall"></li>
-{#                            {% endwith %}#}
-							<li><i class="icon-angle-right"></i> قیمت هر کیلو : &nbsp;&nbsp;<input type="text" class="input-xsmall"></li>
+{#                            {% with a = i.Price_pro %}#}
+{#                      {% with  a =  a|div:4.7 %}#}
+                            <li><i class="icon-angle-right"></i> قیمت هر گرم : &nbsp;&nbsp; <input  type="text" value="{{ i.Price_pro_g }}" class="input-xsmall"></li>
+{#                            {% endwith %}{% endwith %}#}
+							<li><i class="icon-angle-right"></i> قیمت هر کیلو : &nbsp;&nbsp;<input type="text" value="{{ i.Price_pro_k }}" class="input-xsmall"></li>
 							<li><i class="icon-angle-right"></i> سطح کیفیت : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" class="input-xsmall" value="{{ i.State_pro }}"></li>
                              <li><img src="{% static 'img/news/1.jpg' %}" class="img-responsive"></li>
                             <li>	<p> میزان خرید <input class="input-xsmall" name="much" type="number">
@@ -60,8 +89,6 @@
 				</div>
 
 		<div class="spance10 visible-phone"></div>
-
-
         {% endfor %}
             </form>
     </div>

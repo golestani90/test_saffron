@@ -2,12 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6a175cf1-98e6-4ce1-85d3-6905d9c32452" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/myapp/templates/shop/buy_pro.html" />
-      <change type="DELETED" beforePath="G:\PycharmProjects\saffron_test\db.sqlite3" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/parent/base_parent.html" afterPath="$PROJECT_DIR$/myapp/templates/parent/base_parent.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/news/best_news.html" afterPath="$PROJECT_DIR$/myapp/templates/news/best_news.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/shop/buy_pro.html" afterPath="$PROJECT_DIR$/myapp/templates/shop/buy_pro.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/templates/shop/list_pro.html" afterPath="$PROJECT_DIR$/myapp/templates/shop/list_pro.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/models.py" afterPath="$PROJECT_DIR$/myapp/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saffron_test/settings.py" afterPath="$PROJECT_DIR$/saffron_test/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/saffron_test/urls.py" afterPath="$PROJECT_DIR$/saffron_test/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myapp/views.py" afterPath="$PROJECT_DIR$/myapp/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -44,7 +43,7 @@
       <file leaf-file-name="best_news.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/templates/news/best_news.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="31" selection-start="105" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="7208">
+            <state line="175" column="43" selection-start="9011" selection-end="9011" vertical-scroll-proportion="0.0" vertical-offset="2770" max-vertical-offset="3281">
               <folding />
             </state>
           </provider>
@@ -53,7 +52,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/saffron_test/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+            <state line="14" column="41" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="663">
               <folding />
             </state>
           </provider>
@@ -62,43 +61,25 @@
       <file leaf-file-name="list_pro.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/templates/shop/list_pro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="0" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="947" max-vertical-offset="1292">
+            <state line="77" column="62" selection-start="3326" selection-end="3326" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1751">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/saffron_test/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0" vertical-offset="1360" max-vertical-offset="1666">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tst_db.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myapp/tst_db.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="578">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/myapp/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
+            <state line="64" column="69" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.55772644" vertical-offset="723" max-vertical-offset="1666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="buy_pro.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="buy_pro.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/templates/shop/buy_pro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="55" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.5944334" vertical-offset="296" max-vertical-offset="833">
+            <state line="32" column="57" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="969">
               <folding />
             </state>
           </provider>
@@ -107,16 +88,7 @@
       <file leaf-file-name="base_parent.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/templates/parent/base_parent.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="25" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="3077">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="manage.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/manage.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+            <state line="172" column="11" selection-start="7100" selection-end="7100" vertical-scroll-proportion="0.0" vertical-offset="2379" max-vertical-offset="3128">
               <folding />
             </state>
           </provider>
@@ -125,7 +97,7 @@
       <file leaf-file-name="models.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myapp/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="26" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1020">
+            <state line="31" column="45" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="1207">
               <folding />
             </state>
           </provider>
@@ -157,14 +129,14 @@
         <option value="$PROJECT_DIR$/myapp/static/scripts/contact-us.js" />
         <option value="$PROJECT_DIR$/myapp/static/css/style-metronic-rtl.css" />
         <option value="$PROJECT_DIR$/myapp/static/css/style-rtl.css" />
-        <option value="$PROJECT_DIR$/myapp/templates/news/best_news.html" />
-        <option value="$PROJECT_DIR$/myapp/models.py" />
         <option value="$PROJECT_DIR$/saffron_test/settings.py" />
-        <option value="$PROJECT_DIR$/myapp/templates/parent/base_parent.html" />
-        <option value="$PROJECT_DIR$/myapp/views.py" />
         <option value="$PROJECT_DIR$/saffron_test/urls.py" />
-        <option value="$PROJECT_DIR$/myapp/templates/shop/list_pro.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/news/best_news.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/parent/base_parent.html" />
+        <option value="$PROJECT_DIR$/myapp/models.py" />
         <option value="$PROJECT_DIR$/myapp/templates/shop/buy_pro.html" />
+        <option value="$PROJECT_DIR$/myapp/templates/shop/list_pro.html" />
+        <option value="$PROJECT_DIR$/myapp/views.py" />
       </list>
     </option>
   </component>
@@ -306,6 +278,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saffron_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="saffron_test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -623,7 +609,11 @@
       <created>1401436103762</created>
       <updated>1401436103762</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="second commit_create shopping-cart">
+      <created>1401538769127</created>
+      <updated>1401538769127</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -635,11 +625,11 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32974634" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2" sideWeight="0.7120954" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22575757" sideWeight="0.76740235" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2879046" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2879046" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23259762" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879046" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -661,42 +651,16 @@
     </option>
     <MESSAGE value="firstcommit" />
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="second commit_create shopping-cart" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit_create shopping-cart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myapp/static/css/style-metronic-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="478" column="9" selection-start="9086" selection-end="9093" vertical-scroll-proportion="0.35276967" vertical-offset="8005" max-vertical-offset="23392" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/static/css/style-rtl.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="808" column="33" selection-start="14000" selection-end="14000" vertical-scroll-proportion="0.5192308" vertical-offset="13547" max-vertical-offset="42432" />
-      </provider>
-    </entry>
-    <entry file="file://K:/saffron/template/template_content_rtl/page_500.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="1524" selection-end="1524" vertical-scroll-proportion="0.0" vertical-offset="5699" max-vertical-offset="6188" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/static/img/logo.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/saffron_test/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="80" column="0" selection-start="1965" selection-end="1965" vertical-scroll-proportion="0.0" vertical-offset="1023" max-vertical-offset="1666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/manage.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="371">
           <folding />
         </state>
       </provider>
@@ -708,9 +672,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/tst_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="578" />
       </provider>
     </entry>
     <entry file="file://K:/saffron/template/template_content_rtl/page_prices.html">
@@ -718,51 +680,76 @@
         <state line="189" column="41" selection-start="8701" selection-end="8734" vertical-scroll-proportion="0.0" vertical-offset="3213" max-vertical-offset="11866" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/models.py">
+    <entry file="file://C:/Python27/Lib/site-packages/django/template/defaulttags.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="26" selection-start="56" selection-end="56" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="1020">
-          <folding />
-        </state>
+        <state line="1402" column="16" selection-start="49804" selection-end="49804" vertical-scroll-proportion="0.4362245" vertical-offset="23663" max-vertical-offset="24055" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/templates/parent/base_parent.html">
+    <entry file="file://C:/Python27/Lib/site-packages/django/views/defaults.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="25" selection-start="1676" selection-end="1676" vertical-scroll-proportion="0.0" vertical-offset="629" max-vertical-offset="3077">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1649" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/django/views/csrf.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1870" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="371" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/saffron_test/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="41" selection-start="612" selection-end="612" vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="646">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/templates/news/best_news.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="31" selection-start="105" selection-end="114" vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="7208">
+        <state line="175" column="43" selection-start="9011" selection-end="9011" vertical-scroll-proportion="0.0" vertical-offset="2770" max-vertical-offset="3281">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/views.py">
+    <entry file="file://$PROJECT_DIR$/myapp/static/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="586" selection-end="586" vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="867">
+        <state line="0" column="22" selection-start="22" selection-end="22" vertical-scroll-proportion="-1.1985472" vertical-offset="495" max-vertical-offset="5066" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/templates/parent/base_parent.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="172" column="11" selection-start="7100" selection-end="7100" vertical-scroll-proportion="0.0" vertical-offset="2379" max-vertical-offset="3128">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/saffron_test/urls.py">
+    <entry file="file://$PROJECT_DIR$/myapp/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="51" selection-start="51" selection-end="51" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/myapp/templates/shop/list_pro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="0" selection-start="2563" selection-end="2563" vertical-scroll-proportion="0.0" vertical-offset="947" max-vertical-offset="1292">
+        <state line="31" column="45" selection-start="994" selection-end="994" vertical-scroll-proportion="0.0" vertical-offset="448" max-vertical-offset="1207">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myapp/templates/shop/buy_pro.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="55" selection-start="1868" selection-end="1868" vertical-scroll-proportion="0.5944334" vertical-offset="296" max-vertical-offset="833">
+        <state line="32" column="57" selection-start="1476" selection-end="1476" vertical-scroll-proportion="0.0" vertical-offset="397" max-vertical-offset="969">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/templates/shop/list_pro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="77" column="62" selection-start="3326" selection-end="3326" vertical-scroll-proportion="0.0" vertical-offset="1071" max-vertical-offset="1751">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myapp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="69" selection-start="2584" selection-end="2584" vertical-scroll-proportion="0.55772644" vertical-offset="723" max-vertical-offset="1666">
           <folding />
         </state>
       </provider>
